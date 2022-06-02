@@ -1,0 +1,503 @@
+Company,Ticker Symbol,Stock Exchange,Sector,Sub-Industry,HQ City,HQ State,Employees,Founded,MarketCap ($Billions),Price,Price-26-week,Price-52-week,High-52-week,Low-52-week,Volume (thousands of shares)
+Apple,AAPL,Nasdaq,Information Technology,"Technology Hardware, Storage & Peripherals",Cupertino,California,"154,000",1977,"2,226.92",137.35,161.41,126.90,182.94,123.13,"117,726"
+Microsoft,MSFT,Nasdaq,Information Technology,Systems Software,Redmond,Washington,"181,000",1975,"1,888.91",253.14,337.68,251.72,349.67,243.00,"33,175"
+Alphabet (Class C),GOOG,Nasdaq,Communication Services,Interactive Media & Services,Mountain View,California,"163,906",1998,"1,436.86","2,214.91","2,935.14","2,409.07","3,042.00","2,127.46","1,578"
+Alphabet (Class A),GOOGL,Nasdaq,Communication Services,Interactive Media & Services,Mountain View,California,"163,906",1998,"1,436.86","2,207.68","2,915.64","2,362.87","3,030.93","2,115.93","1,859"
+Amazon,AMZN,Nasdaq,Consumer Discretionary,Internet & Direct Marketing Retail,Seattle,Washington,"1,608,000",1994,"1,094.68","2,146.38","3,580.04","3,259.05","3,773.08","2,048.11","5,390"
+Tesla,TSLA,Nasdaq,Consumer Discretionary,Automobile Manufacturers,Palo Alto,California,"99,290",2003,687.81,709.42,"1,109.03",604.69,"1,243.49",571.07,"29,635"
+Berkshire Hathaway,BRK.B,NYSE,Financials,Multi-Sector Holdings,Omaha,Nebraska,"372,000",1839,671.09,304.15,288.56,287.20,362.10,270.73,"4,146"
+Meta,FB,Nasdaq,Communication Services,Interactive Media & Services,Menlo Park,California,"77,805",2004,523.78,191.29,337.25,327.79,384.33,169.00,"25,059"
+Johnson & Johnson,JNJ,NYSE,Health Care,Pharmaceuticals,New Brunswick,New Jersey,"141,700",1886,465.71,173.94,160.69,170.08,186.69,155.72,"7,041"
+UnitedHealth Group,UNH,NYSE,Health Care,Managed Health Care,Minnetonka,Minnesota,"350,000",1977,455.70,478.55,447.13,413.05,553.29,383.12,"2,280"
+Nvidia,NVDA,Nasdaq,Information Technology,Semiconductors,Santa Clara,California,"22,473",1993,418.02,171.24,317.46,156.48,346.47,142.71,"63,989"
+Visa,V,NYSE,Information Technology,Data Processing & Outsourced Services,San Francisco,California,"21,500",1958,414.61,197.37,198.49,229.02,252.67,186.67,"12,187"
+ExxonMobil,XOM,NYSE,Energy,Integrated Oil & Gas,Irving,Texas,"63,000",1999,386.96,91.14,63.13,58.26,93.59,52.10,"27,239"
+JPMorgan Chase,JPM,NYSE,Financials,Diversified Banks,New York City,New York,"273,948",1799,344.63,118.31,168.28,161.85,172.96,115.02,"24,377"
+Procter & Gamble,PG,NYSE,Consumer Staples,Personal Products,Cincinnati,Ohio,"3,000",1837,340.20,141.70,149.44,138.43,165.35,131.94,"7,134"
+Chevron,CVX,NYSE,Energy,Integrated Oil & Gas,San Ramon,California,"42,595",1879,329.74,166.86,116.30,103.87,175.65,92.86,"10,216"
+Walmart,WMT,NYSE,Consumer Staples,Hypermarkets & Super Centers,Bentonville,Arkansas,"2,300,000",1962,328.13,119.07,145.81,142.34,160.77,117.27,"14,560"
+Mastercard,MA,NYSE,Information Technology,Data Processing & Outsourced Services,Harrison,New York,"24,000",1966,326.98,332.22,329.00,367.22,399.92,305.61,"3,421"
+Home Depot,HD,NYSE,Consumer Discretionary,Home Improvement Retail,Atlanta,Georgia,"490,600",1978,296.77,287.76,408.37,316.75,420.61,279.59,"4,306"
+Pfizer,PFE,NYSE,Health Care,Pharmaceuticals,New York City,New York,"79,000",1849,294.40,50.65,51.08,39.33,61.71,38.48,"24,036"
+Lilly,LLY,NYSE,Health Care,Pharmaceuticals,Indianapolis,Indiana,"35,000",1876,283.96,286.27,261.96,199.22,314.00,195.50,"2,874"
+Bank of America,BAC,NYSE,Financials,Diversified Banks,Charlotte,North Carolina,"208,000",1998,272.81,34.45,47.50,42.01,50.11,32.96,"69,082"
+AbbVie,ABBV,NYSE,Health Care,Pharmaceuticals,North Chicago,Illinois,"50,000",2013,266.85,151.72,118.88,114.56,175.91,105.56,"6,886"
+Coca-Cola,KO,NYSE,Consumer Staples,Soft Drinks,Atlanta,Georgia,"79,000",1886,264.35,60.00,55.88,54.79,67.20,52.28,"19,407"
+Merck,MRK,NYSE,Health Care,Pharmaceuticals,Kenilworth,New Jersey,"68,000",1891,236.57,92.09,82.80,73.90,94.56,70.89,"9,067"
+PepsiCo,PEP,Nasdaq,Consumer Staples,Soft Drinks,Purchase,New York,"309,000",1898,224.29,161.20,165.25,148.30,177.62,144.61,"4,658"
+Broadcom,AVGO,Nasdaq,Information Technology,Semiconductors,San Jose,California,"20,000",1961,221.77,546.21,555.12,459.54,677.76,445.33,"5,859"
+Thermo Fisher Scientific,TMO,NYSE,Health Care,Life Sciences Tools & Services,Waltham,Massachusetts,"130,000",2006,217.32,550.74,632.76,464.02,672.34,438.72,"1,181"
+Verizon,VZ,NYSE,Communication Services,Integrated Telecommunication Services,New York City,New York,"118,400",1983,208.01,49.10,51.75,56.48,57.61,45.55,"16,762"
+Abbott,ABT,NYSE,Health Care,Health Care Equipment,North Chicago,Illinois,"113,000",1888,198.28,112.44,124.48,118.40,142.60,104.63,"4,357"
+Comcast,CMCSA,Nasdaq,Communication Services,Cable & Satellite,Philadelphia,Pennsylvania,"189,000",1963,190.15,42.88,52.04,55.70,61.80,39.47,"20,260"
+Adobe,ADBE,Nasdaq,Information Technology,Application Software,San Jose,California,"25,988",1982,188.57,394.38,665.16,505.08,699.54,370.27,"2,338"
+Disney,DIS,NYSE,Communication Services,Movies & Entertainment,Burbank,California,"190,000",1923,186.56,103.14,151.03,176.17,187.58,99.47,"14,402"
+Costco,COST,Nasdaq,Consumer Staples,Hypermarkets & Super Centers,Issaquah,Washington,"288,000",1976,184.57,422.93,545.26,385.38,612.27,375.50,"3,687"
+Accenture,ACN,NYSE,Information Technology,IT Consulting & Other Services,Dublin,Ireland,"624,000",1989,183.26,273.61,360.70,285.99,417.37,268.17,"2,129"
+Oracle,ORCL,NYSE,Information Technology,Application Software,Austin,Texas,"132,000",1977,183.12,67.04,92.94,78.83,106.34,66.72,"7,370"
+Danaher,DHR,NYSE,Health Care,Health Care Equipment,Washington,D.C.,"78,000",1969,183.08,249.31,313.52,255.14,333.96,233.71,"2,049"
+Cisco,CSCO,Nasdaq,Information Technology,Communications Equipment,San Jose,California,"79,500",1984,178.38,41.72,55.30,53.31,64.29,41.02,"27,367"
+McDonald's,MCD,NYSE,Consumer Discretionary,Restaurants,Chicago,Illinois,"200,000",1940,172.99,229.00,255.65,232.14,271.15,217.68,"3,053"
+Intel,INTC,Nasdaq,Information Technology,Semiconductors,Santa Clara,California,"121,100",1968,170.31,42.01,49.10,56.87,58.42,40.31,"27,199"
+Nike,NKE,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Washington County,Oregon,"73,300",1964,169.97,106.44,172.15,134.32,179.10,105.00,"7,136"
+Bristol Myers Squibb,BMY,NYSE,Health Care,Health Care Distributors,New York City,New York,"32,200",1989,162.21,75.96,57.45,66.76,78.47,53.22,"13,539"
+Salesforce,CRM,NYSE,Information Technology,Application Software,San Francisco,California,"73,541",1999,158.62,155.60,291.42,227.71,311.75,154.55,"6,149"
+Linde,LIN,NYSE,Materials,Industrial Gases,Guildford,UK,"72,507",1879,158.45,310.70,330.25,301.25,352.18,267.51,"1,981"
+T-Mobile,TMUS,Nasdaq,Communication Services,Wireless Telecommunication Services,Bellevue,Washington,"75,000",1994,158.00,125.88,115.46,136.76,150.20,101.51,"4,133"
+Wells Fargo,WFC,NYSE,Financials,Diversified Banks,San Francisco,California,"246,577",1852,157.94,42.00,51.40,46.09,60.30,40.74,"27,979"
+Philip Morris International,PM,NYSE,Consumer Staples,Tobacco,New York City,New York,"69,600",2008,156.79,100.50,89.65,97.52,112.48,85.64,"6,297"
+Texas Instruments,TXN,Nasdaq,Information Technology,Semiconductors,Dallas,Texas,"31,000",1930,156.59,167.62,192.64,188.70,202.26,160.50,"5,384"
+AMD,AMD,Nasdaq,Information Technology,Semiconductors,Santa Clara,California,"15,500",1969,151.52,96.67,149.92,77.86,164.46,76.25,"128,773"
+United Parcel Service,UPS,NYSE,Industrials,Air Freight & Logistics,Sandy Springs,Georgia,"534,000",1907,149.45,167.39,211.81,211.49,233.72,165.34,"2,838"
+Qualcomm,QCOM,Nasdaq,Information Technology,Semiconductors,San Diego,California,"45,000",1985,147.39,130.57,180.94,133.75,193.58,122.17,"10,023"
+AT&T,T,NYSE,Communication Services,Integrated Telecommunication Services,Dallas,Texas,"203,000",1983,146.04,20.21,24.76,29.52,22.82,16.62,"46,775"
+NextEra Energy,NEE,NYSE,Utilities,Multi-Utilities,Juno Beach,Florida,"15,000",1984,139.91,70.46,87.31,73.37,93.73,67.22,"10,379"
+Morgan Stanley,MS,NYSE,Financials,Investment Banking & Brokerage,New York City,New York,"77,000",1935,138.84,79.96,101.86,88.86,109.73,76.75,"7,788"
+Medtronic,MDT,NYSE,Health Care,Health Care Equipment,Dublin,Ireland,"90,000",1949,137.55,102.75,113.38,128.40,135.89,98.38,"4,134"
+ConocoPhillips,COP,NYSE,Energy,Oil & Gas Exploration & Production,Houston,Texas,"9,400",2002,135.84,104.61,73.78,54.88,108.30,51.41,"8,647"
+Union Pacific,UNP,NYSE,Industrials,Railroads,Omaha,Nebraska,"30,189",1862,134.13,216.50,247.37,221.94,278.94,195.68,"3,079"
+Raytheon Technologies,RTX,NYSE,Industrials,Aerospace & Defense,Waltham,Massachusetts,"174,000",1922,133.97,90.25,87.31,86.26,106.02,79.00,"4,701"
+Amgen,AMGN,Nasdaq,Health Care,Biotechnology,Thousand Oaks,California,"24,200",1980,132.21,244.77,204.53,242.00,258.45,198.64,"2,273"
+Honeywell,HON,Nasdaq,Industrials,Industrial Conglomerates,Charlotte,North Carolina,"99,000",1906,129.17,192.65,216.00,224.04,236.86,174.42,"3,726"
+CVS Health,CVS,NYSE,Health Care,Health Care Services,Woonsocket,Rhode Island,"300,000",1996,124.48,93.14,93.64,88.70,111.25,79.34,"6,136"
+Lowe's,LOW,NYSE,Consumer Discretionary,Home Improvement Retail,Mooresville,North Carolina,"200,000",1904,120.42,187.86,251.91,193.02,263.31,179.22,"3,547"
+Charles Schwab,SCHW,NYSE,Financials,Investment Banking & Brokerage,Westlake,Texas,"34,200",1971,120.00,62.66,82.94,71.63,96.24,61.53,"6,724"
+Anthem,ANTM,NYSE,Health Care,Managed Health Care,Indianapolis,Indiana,"98,200",2014,118.82,479.92,423.66,395.15,533.68,355.43,"1,194"
+S&P Global,SPGI,NYSE,Financials,Financial Exchanges & Data,New York City,New York,"22,850",1917,116.39,332.07,458.34,378.59,484.21,322.20,"2,753"
+IBM,IBM,NYSE,Information Technology,IT Consulting & Other Services,Armonk,New York,"307,600",1911,115.56,129.66,116.79,143.79,145.99,114.56,"3,592"
+American Express,AXP,NYSE,Financials,Consumer Finance,New York City,New York,"64,000",1850,115.40,154.00,170.85,158.01,199.55,149.71,"2,727"
+Lockheed Martin,LMT,NYSE,Industrials,Aerospace & Defense,Bethesda,Maryland,"114,000",1995,112.87,425.62,345.18,385.85,479.99,324.23,"1,038"
+American Tower,AMT,NYSE,Real Estate,Specialized REITs,Boston,Massachusetts,"6,378",1995,111.46,233.25,262.00,253.37,303.72,220.00,"1,697"
+Caterpillar,CAT,NYSE,Industrials,Construction Machinery & Heavy Trucks,Deerfield,Illinois,"107,700",1925,105.51,206.76,205.33,237.17,246.69,179.67,"3,247"
+Goldman Sachs,GS,NYSE,Financials,Investment Banking & Brokerage,New York City,New York,"45,100",1869,105.37,308.20,406.34,364.51,426.16,293.90,"2,653"
+Intuit,INTU,Nasdaq,Information Technology,Application Software,Mountain View,California,"13,500",1983,104.01,362.33,670.63,438.99,716.86,339.36,"1,799"
+Citigroup,C,NYSE,Financials,Diversified Banks,New York City,New York,"228,000",1998,96.61,49.78,68.07,77.28,80.29,45.40,"35,167"
+Deere & Co.,DE,NYSE,Industrials,Agricultural & Farm Machinery,Moline,Illinois,"75,550",1837,96.12,364.62,349.28,360.69,446.76,307.64,"4,286"
+Applied Materials,AMAT,Nasdaq,Information Technology,Semiconductor Equipment,Santa Clara,California,"27,000",1967,94.05,110.74,148.92,137.50,167.06,101.33,"7,669"
+PayPal,PYPL,Nasdaq,Information Technology,Data Processing & Outsourced Services,San Jose,California,"30,900",1998,93.27,81.28,188.05,258.65,310.16,71.83,"12,309"
+Altria,MO,NYSE,Consumer Staples,Tobacco,Richmond,Virginia,"6,000",1985,92.50,51.09,44.24,49.61,57.05,42.53,"10,535"
+Charter Communications,CHTR,Nasdaq,Communication Services,Cable & Satellite,Stamford,Connecticut,"93,700",1993,91.73,474.57,674.74,695.51,825.62,410.33,895
+BlackRock,BLK,NYSE,Financials,Asset Management & Custody Banks,New York City,New York,"18,700",1988,90.97,593.08,935.43,874.27,973.16,582.58,919
+Prologis,PLD,NYSE,Real Estate,Industrial REITs,San Francisco,California,"2,053",1983,88.62,119.72,152.58,118.18,174.54,115.25,"5,979"
+Stryker,SYK,NYSE,Health Care,Health Care Equipment,Kalamazoo,Michigan,"46,000",1941,87.83,230.50,254.54,256.79,281.16,224.02,925
+ADP,ADP,Nasdaq,Information Technology,Data Processing & Outsourced Services,Roseland,New Jersey,"56,000",1949,87.16,206.85,236.14,195.20,248.96,190.82,"1,488"
+ServiceNow,NOW,NYSE,Information Technology,Systems Software,Santa Clara,California,"16,881",2003,86.81,426.76,636.91,479.90,707.60,406.47,"1,953"
+Chubb,CB,NYSE,Financials,Property & Casualty Insurance,Zurich,Switzerland,"31,000",1985,86.44,203.88,192.95,165.67,218.99,155.78,"1,902"
+Booking Holdings,BKNG,Nasdaq,Consumer Discretionary,Internet & Direct Marketing Retail,Norwalk,Connecticut,"20,300",1996,85.95,"2,103.40","2,341.13","2,339.01","2,715.66","1,796.45",296
+Estée Lauder Companies,EL,NYSE,Consumer Staples,Personal Products,New York City,New York,"62,000",1946,84.77,235.38,349.76,305.19,374.20,225.39,"1,500"
+Mondelez International,MDLZ,Nasdaq,Consumer Staples,Packaged Foods & Meats,Chicago,Illinois,"79,000",2012,84.68,61.11,61.41,63.71,69.47,57.63,"7,476"
+Duke Energy,DUK,NYSE,Utilities,Electric Utilities,Charlotte,North Carolina,"27,605",1904,84.56,108.95,100.74,101.31,116.33,95.48,"2,577"
+Analog Devices,ADI,Nasdaq,Information Technology,Semiconductors,Wilmington,Massachusetts,"24,700",1965,84.44,160.94,182.45,163.72,191.95,143.81,"2,291"
+Starbucks,SBUX,Nasdaq,Consumer Discretionary,Restaurants,Seattle,Washington,"383,000",1971,84.17,71.93,113.58,112.63,126.32,68.39,"10,742"
+GE,GE,NYSE,Industrials,Industrial Conglomerates,Boston,Massachusetts,"168,000",1892,82.83,75.74,102.08,104.96,116.17,71.14,"5,275"
+Netflix,NFLX,Nasdaq,Communication Services,Movies & Entertainment,Los Gatos,California,"11,300",1997,82.79,183.48,654.06,501.34,700.99,162.71,"9,602"
+Cigna,CI,NYSE,Health Care,Managed Health Care,Bloomfield,Connecticut,"73,700",1982,82.33,256.88,213.24,259.60,271.71,191.74,"1,092"
+3M,MMM,NYSE,Industrials,Industrial Conglomerates,Saint Paul,Minnesota,"95,000",1902,81.85,146.96,179.46,201.71,206.81,139.74,"2,836"
+Gilead,GILD,Nasdaq,Health Care,Biotechnology,Foster City,California,"14,400",1987,80.08,63.27,70.63,66.23,74.12,57.19,"7,257"
+Crown Castle,CCI,NYSE,Real Estate,Specialized REITs,Houston,Texas,"5,000",1994,78.90,178.38,183.67,188.20,209.87,157.16,"1,385"
+Intuitive Surgical,ISRG,Nasdaq,Health Care,Health Care Equipment,Sunnyvale,California,"9,793",1995,78.64,218.14,335.90,282.00,369.69,206.60,"1,496"
+Southern Company,SO,NYSE,Utilities,Electric Utilities,Atlanta,Georgia,"27,300",1945,78.00,73.33,63.01,64.08,77.24,60.12,"3,927"
+Micron,MU,Nasdaq,Information Technology,Semiconductors,Boise,Idaho,"43,000",1978,76.94,69.40,85.41,81.23,98.45,65.67,"12,356"
+Zoetis,ZTS,NYSE,Health Care,Pharmaceuticals,Parsippany,New Jersey,"12,100",1952,76.51,158.63,223.66,176.62,249.27,156.67,"1,910"
+Marsh & McLennan,MMC,NYSE,Financials,Insurance Brokers,New York City,New York,"83,000",1905,75.21,151.87,169.05,136.60,183.14,133.86,"1,528"
+U.S. Bank,USB,NYSE,Financials,Diversified Banks,Minneapolis,Minnesota,"68,796",1968,73.11,49.24,60.07,59.65,63.57,47.68,"6,472"
+Regeneron,REGN,Nasdaq,Health Care,Biotechnology,Tarrytown,New York,"10,368",1988,72.62,657.15,649.32,498.03,747.42,492.13,593
+Target,TGT,NYSE,Consumer Discretionary,General Merchandise Stores,Minneapolis,Minnesota,"450,000",1902,72.04,153.43,249.18,225.30,268.98,150.89,"7,700"
+Becton Dickinson,BDX,NYSE,Health Care,Health Care Equipment,Franklin Lakes,New Jersey,"75,000",1897,71.92,251.14,246.58,242.49,277.29,229.24,858
+EOG Resources,EOG,NYSE,Energy,Oil & Gas Exploration & Production,Houston,Texas,"2,800",1999,71.49,121.70,91.76,78.68,132.35,60.86,"3,344"
+Boeing,BA,NYSE,Industrials,Aerospace & Defense,Chicago,Illinois,"142,000",1916,71.41,127.14,209.13,240.74,258.40,117.08,"9,341"
+CME Group,CME,Nasdaq,Financials,Financial Exchanges & Data,Chicago,Illinois,"3,480",1848,69.05,190.15,227.94,214.88,256.94,183.15,"1,879"
+Northrop Grumman,NOC,NYSE,Industrials,Aerospace & Defense,West Falls Church,Virginia,"88,000",1930,68.91,448.50,364.21,369.99,490.82,344.89,562
+TJX Companies,TJX,NYSE,Consumer Discretionary,Apparel Retail,Framingham,Massachusetts,"340,000",1987,67.96,61.41,70.95,67.27,77.35,53.69,"9,252"
+CSX,CSX,Nasdaq,Industrials,Railroads,Jacksonville,Florida,"21,000",1980,67.27,30.94,36.48,33.02,38.63,29.49,"17,331"
+Sherwin-Williams,SHW,NYSE,Materials,Specialty Chemicals,Cleveland,Ohio,"61,626",1866,67.10,259.37,327.49,285.59,354.15,233.32,"1,290"
+Dominion Energy,D,NYSE,Utilities,Electric Utilities,Richmond,Virginia,"17,100",1983,66.96,82.21,74.82,76.01,88.78,70.37,"2,822"
+Vertex,VRTX,Nasdaq,Health Care,Biotechnology,Cambridge,Massachusetts,"3,900",1989,66.14,255.45,186.85,208.76,292.75,176.36,"1,674"
+Lam Research,LRCX,Nasdaq,Information Technology,Semiconductor Equipment,Fremont,California,"14,100",1980,65.77,472.13,661.32,640.37,731.85,442.53,"1,058"
+Progressive,PGR,NYSE,Financials,Property & Casualty Insurance,Mayfield Village,Ohio,"49,000",1937,64.92,110.42,94.52,97.28,120.17,89.35,"2,088"
+PNC Financial Services,PNC,NYSE,Financials,Regional Banks,Pittsburgh,Pennsylvania,"57,668",1845,64.51,154.75,209.09,191.70,228.14,152.35,"2,048"
+Pioneer Natural Resources,PXD,NYSE,Energy,Oil & Gas Exploration & Production,Irving,Texas,"1,932",1997,64.48,265.42,188.06,148.32,279.98,133.73,"1,816"
+Waste Management,WM,NYSE,Industrials,Environmental & Facilities Services,Houston,Texas,"48,500",1968,64.14,152.77,164.84,140.69,170.18,136.97,"1,782"
+Colgate-Palmolive,CL,NYSE,Consumer Staples,Household Products,New York City,New York,"33,800",1806,62.95,75.12,77.93,84.59,85.61,72.20,"3,755"
+Illinois Tool Works,ITW,NYSE,Industrials,Industrial Machinery,Glenview,Illinois,"45,000",1912,62.84,200.80,244.05,232.57,249.81,195.25,"1,007"
+Fiserv,FISV,Nasdaq,Information Technology,Data Processing & Outsourced Services,Brookfield,Wisconsin,"44,000",1984,61.79,94.39,96.11,115.71,119.86,89.91,"2,586"
+FIS,FIS,NYSE,Information Technology,Data Processing & Outsourced Services,Jacksonville,Florida,"65,000",1968,60.88,97.17,108.66,150.75,152.20,85.00,"2,604"
+Truist,TFC,NYSE,Financials,Regional Banks,Charlotte,North Carolina,"50,283",1872,60.82,46.12,62.91,60.06,68.95,44.85,"6,485"
+Activision Blizzard,ATVI,Nasdaq,Communication Services,Interactive Home Entertainment,Santa Monica,California,"9,800",2008,60.52,77.74,61.77,96.57,99.46,56.40,"4,128"
+HCA Healthcare,HCA,NYSE,Health Care,Health Care Facilities,Nashville,Tennessee,"204,000",1968,60.51,203.13,241.67,210.21,279.02,198.69,"1,391"
+Equinix,EQIX,Nasdaq,Real Estate,Specialized REITs,Redwood City,California,"10,944",1998,59.33,635.09,779.36,735.26,885.26,621.34,475
+General Dynamics,GD,NYSE,Industrials,Aerospace & Defense,Falls Church,Virginia,"103,100",1899,59.29,217.78,200.29,188.91,254.99,182.66,"1,813"
+Occidental Petroleum,OXY,NYSE,Energy,Oil & Gas Exploration & Production,Houston,Texas,"11,678",1920,59.29,63.96,31.92,24.62,69.17,21.62,"24,517"
+Edwards Lifesciences,EW,NYSE,Health Care,Health Care Equipment,Irvine,California,"15,700",1958,58.64,94.37,112.63,96.68,131.73,91.02,"2,620"
+Schlumberger,SLB,NYSE,Energy,Oil & Gas Equipment & Services,Curaçao,Netherlands,"92,000",1926,58.12,40.85,31.18,31.24,46.27,25.90,"13,288"
+Boston Scientific,BSX,NYSE,Health Care,Health Care Equipment,Marlborough,Massachusetts,"41,000",1979,56.07,39.49,40.23,43.03,47.50,37.96,"6,663"
+Aon,AON,NYSE,Financials,Insurance Brokers,London,UK,"50,000",1982,55.80,266.66,297.00,252.31,341.98,223.19,873
+Humana,HUM,NYSE,Health Care,Managed Health Care,Louisville,Kentucky,"95,500",1961,55.61,432.00,437.23,441.88,472.68,351.20,597
+Public Storage,PSA,NYSE,Real Estate,Specialized REITs,Glendale,California,"5,800",1972,54.92,309.77,330.38,278.77,421.76,275.23,698
+Norfolk Southern,NSC,NYSE,Industrials,Railroads,Norfolk,Virginia,"18,100",1881,54.54,228.03,279.73,277.96,299.20,222.54,"1,160"
+Intercontinental Exchange,ICE,NYSE,Financials,Financial Exchanges & Data,Atlanta,Georgia,"9,009",2000,54.50,95.90,132.05,112.38,139.79,93.45,"3,024"
+Moderna,MRNA,Nasdaq,Health Care,Biotechnology,Cambridge,Massachusetts,"2,700",2010,54.19,143.38,276.38,169.26,497.49,119.01,"4,284"
+Eaton,ETN,NYSE,Industrials,Electrical Components & Equipment,Dublin,Ireland,"85,947",1911,53.52,136.08,172.57,142.81,175.72,132.16,"2,170"
+Moody's,MCO,NYSE,Financials,Financial Exchanges & Data,New York City,New York,"13,913",1909,53.37,282.76,386.61,333.02,407.94,276.79,716
+Newmont,NEM,NYSE,Materials,Gold,Denver,Colorado,"14,400",1921,53.33,66.11,55.49,73.20,86.37,52.60,"5,417"
+Air Products,APD,NYSE,Materials,Industrial Gases,Allentown,Pennsylvania,"20,625",1940,52.69,234.22,299.00,301.05,316.39,216.24,748
+Freeport-McMoRan,FCX,NYSE,Materials,Copper,Phoenix,Arizona,"24,700",1912,52.62,36.72,38.68,40.68,51.99,30.02,"19,212"
+Marathon Petroleum,MPC,NYSE,Energy,Oil & Gas Refining & Marketing,Findlay,Ohio,"17,700",2009,52.24,95.76,63.85,60.01,98.29,50.19,"5,440"
+FedEx,FDX,NYSE,Industrials,Air Freight & Logistics,Memphis,Tennessee,"228,000",1971,52.07,199.05,246.43,308.59,319.90,192.82,"1,696"
+GM,GM,NYSE,Consumer Discretionary,Automobile Manufacturers,Detroit,Michigan,"157,000",1908,51.62,36.12,63.05,56.76,67.21,34.39,"19,960"
+American Electric Power,AEP,Nasdaq,Utilities,Electric Utilities,Columbus,Ohio,"16,688",1906,51.20,99.04,84.31,85.93,104.81,80.22,"2,486"
+Marriott International,MAR,Nasdaq,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Bethesda,Maryland,"120,000",1927,50.81,156.94,157.44,142.79,195.90,127.23,"1,832"
+MetLife,MET,NYSE,Financials,Life & Health Insurance,New York City,New York,"43,000",1868,50.46,62.39,63.36,64.02,73.18,55.21,"4,984"
+Sempra Energy,SRE,NYSE,Utilities,Multi-Utilities,San Diego,California,"15,390",1998,50.32,23.13,27.13,27.13,28.04,22.93,71
+Ford,F,NYSE,Consumer Discretionary,Automobile Manufacturers,Dearborn,Michigan,"183,000",1903,50.25,12.85,20.20,12.81,25.87,12.07,"51,930"
+Valero,VLO,NYSE,Energy,Oil & Gas Refining & Marketing,San Antonio,Texas,"9,813",1980,50.19,124.26,72.55,77.33,131.69,58.85,"5,266"
+KLA,KLAC,Nasdaq,Information Technology,Semiconductor Equipment,Milpitas,California,"11,300",1975,50.07,338.52,411.98,317.92,457.12,287.44,"1,086"
+Centene,CNC,NYSE,Health Care,Managed Health Care,St. Louis,Missouri,"72,500",1984,49.69,82.64,76.03,73.96,89.92,59.67,"2,431"
+Emerson,EMR,NYSE,Industrials,Electrical Components & Equipment,Ferguson,Missouri,"86,700",1890,49.68,83.30,94.47,93.41,105.99,81.01,"2,822"
+Dow,DOW,NYSE,Materials,Commodity Chemicals,Midland,Michigan,"35,700",2019,49.59,68.76,59.18,69.04,71.86,52.07,"6,582"
+NXP,NXPI,Nasdaq,Information Technology,Semiconductors,Eindhoven,Netherlands,"31,000",1953,47.29,175.79,219.12,204.76,239.91,164.75,"1,892"
+ADM,ADM,NYSE,Consumer Staples,Agricultural Products,Chicago,Illinois,"41,000",1902,47.27,83.86,66.75,66.59,98.88,56.91,"3,172"
+Kraft Heinz,KHC,Nasdaq,Consumer Staples,Packaged Foods & Meats,Pittsburgh,Pennsylvania,"36,000",2015,46.96,38.56,35.82,44.15,44.95,32.79,"6,440"
+McKesson,MCK,NYSE,Health Care,Health Care Distributors,Irving,Texas,"58,000",1833,46.93,319.13,226.45,196.02,339.94,184.43,842
+Synopsys,SNPS,Nasdaq,Information Technology,Application Software,Mountain View,California,"16,361",1986,46.91,300.52,344.66,255.83,377.60,238.50,"1,022"
+Monster Beverage,MNST,Nasdaq,Consumer Staples,Soft Drinks,Corona,California,"4,092",2012,46.42,86.76,88.62,93.03,99.89,71.78,"2,953"
+Exelon,EXC,Nasdaq,Utilities,Multi-Utilities,Chicago,Illinois,"31,518",2000,46.22,47.35,38.78,32.02,50.71,31.20,"4,333"
+Devon,DVN,NYSE,Energy,Oil & Gas Exploration & Production,Oklahoma City,Oklahoma,"1,600",1971,46.15,69.51,43.44,25.80,73.18,23.34,"9,610"
+Fortinet,FTNT,Nasdaq,Information Technology,Systems Software,Sunnyvale,California,"10,860",2000,45.80,275.16,327.48,214.57,371.77,208.29,"1,404"
+Ecolab,ECL,NYSE,Materials,Specialty Chemicals,Saint Paul,Minnesota,"47,000",1923,45.56,157.65,233.43,214.93,238.93,154.31,"1,043"
+Phillips 66,PSX,NYSE,Energy,Oil & Gas Refining & Marketing,Houston,Texas,"14,000",2012,45.12,94.36,73.83,83.23,98.66,63.19,"4,221"
+Capital One,COF,NYSE,Financials,Consumer Finance,Tysons Corner,Virginia,"51,500",1994,44.69,113.33,156.29,158.22,177.95,110.29,"2,244"
+Constellation Brands,STZ,NYSE,Consumer Staples,Distillers & Vintners,Victor,New York,"10,000",1945,44.35,234.83,237.06,237.94,261.53,207.35,"1,201"
+L3Harris,LHX,NYSE,Industrials,Aerospace & Defense,Melbourne,Florida,"47,000",2019,44.25,232.74,221.51,216.55,279.71,200.71,822
+Roper,ROP,NYSE,Industrials,Industrial Conglomerates,Sarasota,Florida,"19,300",1981,44.21,413.18,485.64,445.87,505.00,402.06,625
+AIG,AIG,NYSE,Financials,Property & Casualty Insurance,New York City,New York,"36,600",1919,44.06,57.90,58.90,50.80,65.73,44.54,"7,949"
+Kimberly-Clark,KMB,NYSE,Consumer Staples,Household Products,Irving,Texas,"45,000",1872,43.24,129.05,135.79,132.10,145.79,117.32,"1,521"
+Kinder Morgan,KMI,NYSE,Energy,Oil & Gas Storage & Transportation,Houston,Texas,"10,529",1997,43.15,19.02,16.33,18.54,20.19,15.01,"12,595"
+Williams,WMB,NYSE,Energy,Oil & Gas Storage & Transportation,Tulsa,Oklahoma,"4,783",1908,43.09,35.02,28.08,25.94,37.05,23.53,"8,474"
+Warner Bros. Discovery,WBD,Nasdaq,Communication Services,Broadcasting,New York City,New York,"11,000",1972,43.05,17.50,25.60,30.66,33.51,16.51,"17,870"
+Dollar General,DG,NYSE,Consumer Discretionary,General Merchandise Stores,Goodlettsville,Tennessee,"163,000",1939,42.92,201.33,225.14,198.87,262.21,183.25,"2,936"
+Corteva,CTVA,NYSE,Materials,Fertilizers & Agricultural Chemicals,Wilmington,Delaware,"21,000",2019,42.86,59.00,47.90,44.60,62.04,40.60,"4,956"
+Hershey's,HSY,NYSE,Consumer Staples,Packaged Foods & Meats,Hershey,Pennsylvania,"16,620",1894,42.56,205.12,182.21,174.72,231.60,167.80,976
+Paychex,PAYX,Nasdaq,Information Technology,Data Processing & Outsourced Services,Penfield,New York,"15,000",1971,42.36,115.84,125.47,101.09,141.92,98.41,"1,802"
+Autodesk,ADSK,Nasdaq,Information Technology,Application Software,San Rafael,California,"12,600",1982,41.64,193.72,304.00,289.47,344.39,175.41,"3,781"
+Realty Income,O,NYSE,Real Estate,Retail REITs,San Diego,California,367,1969,40.90,67.15,69.90,68.84,75.40,62.74,"6,075"
+Republic Services,RSG,NYSE,Industrials,Environmental & Facilities Services,Phoenix,Arizona,"35,000",1998,40.89,127.51,137.88,108.63,145.98,106.46,"1,177"
+Amphenol,APH,NYSE,Information Technology,Electronic Components,Wallingford,Connecticut,"90,000",1932,40.86,67.59,84.80,66.96,88.45,65.84,"2,125"
+Cadence,CDNS,Nasdaq,Information Technology,Application Software,San Jose,California,"9,300",1988,40.43,143.83,181.58,127.49,192.70,122.04,"1,333"
+Xcel Energy,XEL,Nasdaq,Utilities,Multi-Utilities,Minneapolis,Minnesota,"11,321",1909,40.42,75.01,65.84,71.24,76.05,61.16,"2,723"
+Travelers,TRV,NYSE,Financials,Property & Casualty Insurance,New York City,New York,"30,800",1853,40.37,169.30,160.26,156.55,187.98,144.44,"1,454"
+General Mills,GIS,NYSE,Consumer Staples,Packaged Foods & Meats,Golden Valley,Minnesota,"35,000",1856,40.35,66.13,63.44,62.85,73.99,56.67,"3,505"
+Welltower,WELL,NYSE,Real Estate,Health Care REITs,Toledo,Ohio,464,1970,40.00,87.52,85.78,74.83,99.43,72.27,"2,152"
+TE Connectivity,TEL,NYSE,Information Technology,Electronic Manufacturing Services,Schaffhausen,Switzerland,"89,000",2007,39.52,122.68,160.75,133.94,166.44,119.58,"1,424"
+Sysco,SYY,NYSE,Consumer Staples,Food Distributors,Houston,Texas,"58,000",1969,39.22,79.08,76.51,81.51,91.53,68.05,"1,612"
+Illumina,ILMN,Nasdaq,Health Care,Life Sciences Tools & Services,San Diego,California,"9,800",1998,38.25,240.75,365.74,397.09,526.00,208.35,796
+IQVIA,IQV,NYSE,Health Care,Life Sciences Tools & Services,Durham,North Carolina,"79,000",1982,38.20,201.74,265.27,242.13,285.61,195.57,723
+O'Reilly Automotive,ORLY,Nasdaq,Consumer Discretionary,Specialty Stores,Springfield,Missouri,"68,679",1957,37.63,601.53,651.31,534.80,748.68,519.32,876
+Agilent Technologies,A,NYSE,Health Care,Health Care Equipment,Santa Clara,California,"17,200",1999,37.55,122.40,154.78,133.23,179.57,112.64,"2,037"
+Digital Realty,DLR,NYSE,Real Estate,Specialized REITs,Austin,Texas,"3,030",2004,37.32,127.67,165.11,152.44,178.22,124.35,"1,202"
+Cintas,CTAS,Nasdaq,Industrials,Diversified Support Services,Mason,Ohio,"40,000",1929,37.21,358.80,439.16,355.50,461.44,340.17,313
+Microchip,MCHP,Nasdaq,Information Technology,Semiconductors,Chandler,Arizona,"19,500",1989,37.07,66.01,83.31,77.38,90.00,63.34,"5,621"
+Prudential,PRU,NYSE,Financials,Life & Health Insurance,Newark,New Jersey,"40,916",1875,37.01,99.58,110.19,104.37,124.22,94.51,"2,237"
+Cognizant,CTSH,Nasdaq,Information Technology,IT Consulting & Other Services,Teaneck,New Jersey,"340,400",1994,36.91,70.32,80.76,71.00,93.47,66.19,"2,533"
+Baxter,BAX,NYSE,Health Care,Health Care Equipment,Deerfield,Illinois,"60,000",1931,36.87,72.60,78.41,82.35,89.70,69.72,"2,323"
+Electronic Arts,EA,Nasdaq,Communication Services,Interactive Home Entertainment,Redwood City,California,"11,000",1982,36.77,130.02,128.41,143.26,148.93,109.24,"4,590"
+HP,HPQ,NYSE,Information Technology,"Technology Hardware, Storage & Peripherals",Palo Alto,California,"51,000",2015,36.50,35.73,32.19,31.86,41.47,26.11,"12,741"
+Hilton,HLT,NYSE,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Tysons Corner,Virginia,"142,000",1919,36.26,131.71,145.73,123.80,167.99,114.70,"1,813"
+Chipotle Mexican Grill,CMG,NYSE,Consumer Discretionary,Restaurants,Newport Beach,California,"97,660",1993,36.19,"1,272.49","1,708.47","1,346.13","1,958.55","1,233.25",337
+Simon,SPG,NYSE,Real Estate,Retail REITs,Indianapolis,Indiana,"2,400",2003,35.77,110.04,169.03,124.40,171.12,105.72,"1,843"
+Johnson Controls,JCI,NYSE,Industrials,Building Products,Cork,Ireland,"101,000",1885,35.56,51.89,79.20,64.94,81.77,49.42,"3,806"
+Aflac,AFL,NYSE,Financials,Life & Health Insurance,Columbus,Georgia,"12,447",1955,35.49,55.60,56.80,55.76,67.20,51.28,"2,348"
+Baker Hughes,BKR,Nasdaq,Energy,Oil & Gas Equipment & Services,Houston,Texas,"55,000",2017,35.42,34.97,23.76,24.14,39.78,19.23,"9,359"
+Walgreens Boots Alliance,WBA,Nasdaq,Consumer Staples,Drug Retail,Deerfield,Illinois,"202,000",2014,35.38,40.61,47.39,54.19,55.82,39.72,"6,889"
+BNY Mellon,BK,NYSE,Financials,Asset Management & Custody Banks,New York City,New York,"49,600",1784,35.36,43.32,59.01,51.12,64.63,41.77,"4,231"
+LyondellBasell,LYB,NYSE,Materials,Specialty Chemicals,Rotterdam,Netherlands,"19,100",2007,35.34,109.03,93.44,109.89,118.02,84.17,"2,359"
+Hess,HES,NYSE,Energy,Integrated Oil & Gas,New York City,New York,"1,545",1919,35.28,113.43,81.58,82.43,119.43,61.93,"2,045"
+SBA Communications,SBAC,Nasdaq,Real Estate,Specialized REITs,Boca Raton,Florida,"1,596",1989,35.22,319.11,348.95,298.74,391.15,286.41,599
+Motorola Solutions,MSI,NYSE,Information Technology,Communications Equipment,Chicago,Illinois,"18,700",2011,35.18,210.26,257.11,203.85,273.65,198.61,"1,024"
+AutoZone,AZO,NYSE,Consumer Discretionary,Specialty Stores,Memphis,Tennessee,"62,000",1979,35.17,"1,889.39","1,880.10","1,420.56","2,267.40","1,367.96",314
+Kroger,KR,NYSE,Consumer Staples,Food Retail,Cincinnati,Ohio,"420,000",1883,35.08,48.00,43.06,36.46,62.78,35.91,"6,268"
+Global Payments,GPN,NYSE,Information Technology,Data Processing & Outsourced Services,Atlanta,Georgia,"25,000",2000,34.38,120.47,125.05,195.11,197.97,114.80,"1,535"
+Con Edison,ED,NYSE,Utilities,Electric Utilities,New York City,New York,"13,871",1823,33.95,94.82,79.17,77.81,99.22,71.17,"2,778"
+MSCI,MSCI,NYSE,Financials,Financial Exchanges & Data,New York City,New York,"4,361",1969,33.83,410.02,632.34,464.61,679.85,376.41,388
+Allstate,ALL,NYSE,Financials,Property & Casualty Insurance,Northfield Township,Illinois,"54,300",1931,33.83,125.79,114.90,135.15,144.46,106.11,"1,498"
+PSEG,PEG,NYSE,Utilities,Electric Utilities,Newark,New Jersey,"12,684",1903,33.72,67.67,64.20,62.19,75.61,58.96,"2,330"
+Parker,PH,NYSE,Industrials,Industrial Machinery,Cleveland,Ohio,"54,640",1917,33.22,262.69,329.02,304.63,340.00,253.33,592
+Halliburton,HAL,NYSE,Energy,Oil & Gas Equipment & Services,Houston,Texas,"40,000",1919,33.10,36.06,22.97,21.94,42.60,17.82,"9,574"
+International Flavors & Fragrances,IFF,NYSE,Materials,Specialty Chemicals,New York City,New York,"24,000",1958,32.86,129.01,147.58,141.62,157.08,113.40,777
+WEC Energy Group,WEC,NYSE,Utilities,Electric Utilities,Milwaukee,Wisconsin,"6,938",1896,32.66,102.87,91.00,94.21,106.82,86.84,"1,233"
+Gallagher,AJG,NYSE,Financials,Insurance Brokers,Rolling Meadows,Illinois,"39,000",1927,32.56,155.25,164.78,144.40,187.02,135.50,879
+DuPont,DD,NYSE,Materials,Specialty Chemicals,Wilmington,Delaware,"28,000",2017,32.47,64.32,79.51,83.40,86.28,62.10,"2,933"
+Carrier,CARR,NYSE,Industrials,Building Products,Palm Beach Gardens,Florida,"58,000",2020,32.20,37.41,54.87,44.72,58.89,36.23,"3,170"
+Nucor,NUE,NYSE,Materials,Steel,Charlotte,North Carolina,"28,800",1940,31.92,120.71,119.38,100.05,187.90,87.71,"2,614"
+Yum! Brands,YUM,NYSE,Consumer Discretionary,Restaurants,Louisville,Kentucky,"36,000",1997,31.92,109.97,126.59,120.60,139.85,108.55,"1,591"
+Arista,ANET,NYSE,Information Technology,Communications Equipment,Santa Clara,California,"2,993",2004,31.64,101.10,126.51,84.58,148.57,80.43,"2,050"
+DexCom,DXCM,Nasdaq,Health Care,Health Care Equipment,San Diego,California,"6,300",1999,31.52,316.12,590.00,353.25,659.45,302.61,601
+AmerisourceBergen,ABC,NYSE,Health Care,Health Care Distributors,Chesterbrook,Pennsylvania,"38,000",1985,31.46,149.38,123.66,114.99,167.19,111.34,976
+Idexx Laboratories,IDXX,Nasdaq,Health Care,Health Care Equipment,Westbrook,Maine,"10,350",1983,31.27,364.83,619.98,555.19,706.95,330.66,591
+Eversource,ES,NYSE,Utilities,Multi-Utilities,Hartford,Connecticut,"9,227",1966,31.17,89.44,85.20,82.33,94.63,78.44,"1,671"
+Otis,OTIS,NYSE,Industrials,Industrial Machinery,Farmington,Connecticut,"70,000",2020,31.05,72.59,83.81,77.69,92.84,71.07,"2,473"
+Tyson,TSN,NYSE,Consumer Staples,Packaged Foods & Meats,Springdale,Arkansas,"137,000",1935,30.83,84.12,83.24,80.21,100.72,69.88,"1,982"
+Trane Technologies,TT,NYSE,Industrials,Building Products,Dublin,Ireland,"37,000",1871,30.57,130.86,195.57,182.60,207.06,128.13,"1,194"
+TransDigm,TDG,NYSE,Industrials,Aerospace & Defense,Cleveland,Ohio,"13,300",1993,30.03,541.14,625.25,612.72,688.03,531.23,422
+Fastenal,FAST,Nasdaq,Industrials,Building Products,Winona,Minnesota,"21,167",1967,29.61,51.34,60.93,52.69,64.75,48.84,"3,063"
+Brown–Forman,BF.B,NYSE,Consumer Staples,Distillers & Vintners,Louisville,Kentucky,"4,700",1870,29.59,61.92,74.98,79.79,80.46,60.23,"1,239"
+Twitter,TWTR,NYSE,Communication Services,Interactive Media & Services,San Francisco,California,"7,500",2006,29.26,37.29,47.14,57.00,73.34,31.30,"13,601"
+Biogen,BIIB,Nasdaq,Health Care,Biotechnology,Cambridge,Massachusetts,"9,610",1978,29.24,193.09,254.15,273.45,468.55,187.16,932
+M&T Bank,MTB,NYSE,Financials,Regional Banks,Buffalo,New York,"17,115",1856,29.20,162.89,161.85,157.27,186.95,128.46,"1,172"
+Discover,DFS,NYSE,Financials,Consumer Finance,Riverwoods,Illinois,"16,700",1985,29.17,104.08,119.37,114.30,135.69,98.38,"2,035"
+ResMed,RMD,NYSE,Health Care,Health Care Equipment,San Diego,California,"7,970",1989,28.91,197.59,254.36,206.55,301.34,189.40,426
+Dollar Tree,DLTR,Nasdaq,Consumer Discretionary,General Merchandise Stores,Chesapeake,Virginia,"61,886",1986,28.85,135.57,144.71,106.98,177.19,84.26,"2,612"
+Oneok,OKE,NYSE,Energy,Oil & Gas Storage & Transportation,Tulsa,Oklahoma,"2,847",1906,28.38,63.29,64.01,52.66,75.07,48.51,"2,408"
+PPG Industries,PPG,NYSE,Materials,Specialty Chemicals,Pittsburgh,Pennsylvania,"49,300",1883,28.26,122.67,160.43,179.10,182.97,111.32,"1,076"
+Ameriprise Financial,AMP,NYSE,Financials,Asset Management & Custody Banks,Minneapolis,Minnesota,"12,000",1894,28.14,253.92,303.97,253.50,332.37,236.35,519
+AvalonBay Communities,AVB,NYSE,Real Estate,Residential REITs,Arlington,Virginia,"2,927",1978,28.10,199.36,242.73,204.40,259.05,195.51,577
+Mettler Toledo,MTD,NYSE,Health Care,Life Sciences Tools & Services,Columbus,Ohio,"15,600",1945,28.09,"1,219.71","1,524.19","1,287.10","1,714.75","1,168.31",120
+Weyerhaeuser,WY,NYSE,Real Estate,Specialized REITs,Seattle,Washington,"9,214",1900,28.02,37.86,38.54,37.26,42.86,31.08,"5,436"
+Corning,GLW,NYSE,Information Technology,Electronic Components,Corning,New York,"61,200",1851,27.98,33.52,39.43,43.81,44.30,32.24,"5,442"
+Cummins,CMI,NYSE,Industrials,Industrial Machinery,Columbus,Indiana,"59,900",1919,27.84,201.88,227.84,254.35,265.09,187.72,641
+Equity Residential,EQR,NYSE,Real Estate,Residential REITs,Chicago,Illinois,"2,400",1969,27.83,73.34,86.66,76.16,94.32,71.86,"2,051"
+Paccar,PCAR,Nasdaq,Industrials,Construction Machinery & Heavy Trucks,Bellevue,Washington,"28,500",1905,27.75,81.42,89.94,90.55,97.56,77.96,"1,884"
+Albemarle,ALB,NYSE,Materials,Specialty Chemicals,Charlotte,North Carolina,"6,000",1994,27.69,239.08,275.16,158.02,291.48,154.23,"1,003"
+T. Rowe Price,TROW,Nasdaq,Financials,Asset Management & Custody Banks,Baltimore,Maryland,"7,529",1937,27.68,120.13,208.37,187.42,224.56,112.65,"1,677"
+Cerner,CERN,Nasdaq,Health Care,Health Care Technology,North Kansas City,Missouri,"25,150",1979,27.62,93.92,73.93,78.12,94.46,69.08,"1,999"
+Old Dominion,ODFL,Nasdaq,Industrials,Trucking,Thomasville,North Carolina,"23,663",1934,27.57,238.47,354.95,261.33,373.58,231.31,"1,021"
+Keysight,KEYS,NYSE,Information Technology,Electronic Equipment & Instruments,Santa Rosa,California,"14,300",2014,27.28,137.10,195.29,139.98,209.08,127.93,"1,016"
+Ametek,AME,NYSE,Industrials,Electrical Components & Equipment,Berwyn,Pennsylvania,"18,500",1930,27.10,116.71,143.11,133.12,148.07,114.37,890
+Verisk,VRSK,Nasdaq,Industrials,Research & Consulting Services,Jersey City,New Jersey,"9,367",1971,26.67,168.22,229.32,173.70,231.57,164.96,606
+Copart,CPRT,Nasdaq,Industrials,Diversified Support Services,Dallas,Texas,"8,600",1982,26.63,110.90,148.46,127.83,161.12,105.41,"1,417"
+American Water,AWK,NYSE,Utilities,Water Utilities,Camden,New Jersey,"6,400",1886,26.46,145.05,173.08,154.92,189.65,142.36,972
+Hormel,HRL,NYSE,Consumer Staples,Packaged Foods & Meats,Austin,Minnesota,"20,000",1891,26.30,47.81,43.25,49.01,55.11,40.48,"1,407"
+Alexandria,ARE,NYSE,Real Estate,Office REITs,Pasadena,California,559,1994,26.07,157.82,206.45,178.35,224.95,156.94,739
+First Republic,FRC,NYSE,Financials,Regional Banks,San Francisco,California,"6,452",1985,26.03,144.11,218.92,188.27,222.86,136.31,"1,117"
+CBRE,CBRE,NYSE,Real Estate,Real Estate Services,Dallas,Texas,"105,000",1906,25.81,79.91,103.84,88.12,111.00,76.98,"1,454"
+SVB Financial,SIVB,Nasdaq,Financials,Regional Banks,Santa Clara,California,"7,149",1983,25.58,435.50,737.31,568.54,763.22,419.60,463
+Las Vegas Sands,LVS,NYSE,Consumer Discretionary,Casinos & Gaming,Las Vegas,Nevada,"44,500",1988,25.57,33.26,39.81,57.67,59.84,28.88,"5,087"
+Aptiv,APTV,NYSE,Consumer Discretionary,Auto Parts & Equipment,Dublin,Ireland,"155,000",1994,25.35,94.93,170.30,141.86,180.81,88.15,"2,036"
+Southwest Airlines,LUV,NYSE,Industrials,Airlines,Dallas,Texas,"58,865",1967,25.29,43.57,46.98,60.55,62.39,36.75,"3,288"
+Ross,ROST,Nasdaq,Consumer Discretionary,Apparel Retail,Dublin,California,"100,000",1982,25.25,92.70,115.43,123.87,127.58,69.75,"12,790"
+Edison International,EIX,NYSE,Utilities,Electric Utilities,Rosemead,California,"13,003",1886,25.10,65.85,65.52,55.75,73.32,54.14,"1,336"
+DTE,DTE,NYSE,Utilities,Multi-Utilities,Detroit,Michigan,"10,300",1995,24.94,128.82,112.25,118.07,140.23,108.22,"1,438"
+eBay,EBAY,Nasdaq,Consumer Discretionary,Internet & Direct Marketing Retail,San Jose,California,"10,800",1995,24.81,44.62,71.65,61.30,81.19,43.28,"6,122"
+Delta Air Lines,DAL,NYSE,Industrials,Airlines,Atlanta,Georgia,"83,000",1929,24.77,39.24,39.53,46.67,48.54,29.75,"9,005"
+State Street,STT,NYSE,Financials,Asset Management & Custody Banks,Boston,Massachusetts,"39,335",1792,24.77,65.96,98.20,85.36,104.87,65.41,"2,260"
+Coterra,CTRA,NYSE,Energy,Oil & Gas Exploration & Production,Houston,Texas,936,1991,24.73,30.42,21.00,16.45,33.00,13.95,"9,300"
+Zimmer Biomet,ZBH,NYSE,Health Care,Health Care Equipment,Warsaw,Indiana,"19,500",1927,24.65,116.91,126.53,162.69,164.90,105.23,870
+Fifth Third Bank,FITB,Nasdaq,Financials,Regional Banks,Cincinnati,Ohio,"19,247",1858,24.45,35.65,44.84,41.26,50.64,34.35,"4,425"
+D.R. Horton,DHI,NYSE,Consumer Discretionary,Homebuilding,Arlington,Texas,"11,788",1978,24.20,66.52,101.75,93.20,110.45,64.13,"1,941"
+McCormick,MKC,NYSE,Consumer Staples,Packaged Foods & Meats,Hunt Valley,Maryland,"14,000",1889,24.20,89.44,85.41,90.30,107.35,77.85,"1,360"
+FirstEnergy,FE,NYSE,Utilities,Electric Utilities,Akron,Ohio,"12,395",1997,24.19,42.02,38.94,37.62,48.85,35.42,"2,402"
+Nasdaq,NDAQ,Nasdaq,Financials,Financial Exchanges & Data,New York City,New York,"5,987",1971,24.06,143.08,207.91,164.31,214.96,140.31,828
+Ameren,AEE,NYSE,Utilities,Multi-Utilities,St. Louis,Missouri,"9,116",1902,23.92,92.48,85.90,83.72,99.20,79.35,"1,176"
+Equifax,EFX,NYSE,Industrials,Research & Consulting Services,Atlanta,Georgia,"12,700",1899,23.81,191.16,282.95,234.93,300.11,185.76,765
+Entergy,ETR,NYSE,Utilities,Electric Utilities,New Orleans,Louisiana,"12,369",1913,23.79,115.67,106.30,105.92,126.82,98.50,"1,455"
+Grainger,GWW,NYSE,Industrials,Industrial Machinery,Lake Forest,Illinois,"22,700",1927,23.74,466.96,498.00,460.82,529.91,391.16,209
+Rockwell Automation,ROK,NYSE,Industrials,Electrical Components & Equipment,Milwaukee,Wisconsin,"24,500",1903,23.20,198.72,345.96,260.53,354.99,191.08,702
+Diamondback,FANG,Nasdaq,Energy,Oil & Gas Exploration & Production,Midland,Texas,870,2007,23.12,129.82,110.19,75.48,145.31,64.74,"3,308"
+LabCorp,LH,NYSE,Health Care,Health Care Services,Burlington,North Carolina,"75,500",1978,23.04,246.43,285.91,274.45,317.17,232.01,602
+Extra Space Storage,EXR,NYSE,Real Estate,Specialized REITs,Salt Lake City,Utah,"4,309",1977,23.01,169.65,200.39,147.77,228.84,145.10,542
+Kellogg's,K,NYSE,Consumer Staples,Packaged Foods & Meats,Battle Creek,Michigan,"31,000",1906,22.89,68.00,63.38,66.24,75.56,59.54,"2,460"
+Enphase,ENPH,Nasdaq,Information Technology,Electronic Components,Fremont,California,"2,260",2006,22.72,165.54,250.50,138.53,282.46,113.40,"1,641"
+Steris,STE,NYSE,Health Care,Health Care Equipment,Dublin,Ireland,"13,000",1985,22.62,223.40,228.88,191.36,255.93,188.10,389
+Ventas,VTR,NYSE,Real Estate,Health Care REITs,Chicago,Illinois,434,1998,22.59,56.09,51.04,55.40,64.02,45.44,"2,078"
+West Pharmaceutical Services,WST,NYSE,Health Care,Health Care Supplies,Exton,Pennsylvania,"10,065",1923,22.27,302.21,430.69,345.36,475.35,288.12,491
+Willis Towers Watson,WTW,Nasdaq,Financials,Insurance Brokers,London,UK,"44,000",2016,22.13,200.31,235.10,261.59,266.01,192.99,691
+Ball,BALL,NYSE,Materials,Metal & Glass Containers,Broomfield,Colorado,"24,300",1880,22.06,69.70,94.11,85.87,98.09,67.11,"2,121"
+Hartford (The),HIG,NYSE,Financials,Property & Casualty Insurance,Hartford,Connecticut,"18,100",1810,21.96,67.44,72.50,64.58,78.17,59.86,"2,032"
+Ansys,ANSS,Nasdaq,Information Technology,Application Software,Canonsburg,Pennsylvania,"5,100",1969,21.93,248.00,392.21,339.19,413.89,230.72,386
+Match Group,MTCH,Nasdaq,Communication Services,Interactive Media & Services,Dallas,Texas,"2,500",1986,21.90,75.05,135.07,144.26,182.00,67.87,"2,638"
+Align,ALGN,Nasdaq,Health Care,Health Care Supplies,San Jose,California,"22,540",1997,21.67,273.89,657.26,594.95,737.45,250.64,982
+CDW,CDW,Nasdaq,Information Technology,Technology Distributors,Lincolnshire,Illinois,"13,900",1984,21.65,161.95,195.84,166.73,208.71,155.39,847
+Lennar,LEN,NYSE,Consumer Discretionary,Homebuilding,Miami,Florida,"10,753",1954,21.58,72.67,110.70,96.74,117.54,70.67,"2,069"
+Northern Trust,NTRS,Nasdaq,Financials,Asset Management & Custody Banks,Chicago,Illinois,"21,100",1889,21.56,102.00,124.64,120.27,135.15,100.05,727
+Church & Dwight,CHD,NYSE,Consumer Staples,Household Products,Ewing,New Jersey,"5,100",1847,21.55,88.22,94.13,86.91,105.28,80.76,"1,094"
+PPL,PPL,NYSE,Utilities,Electric Utilities,Allentown,Pennsylvania,"5,607",1920,21.49,29.21,28.73,29.11,30.72,25.27,"6,783"
+Paramount,PARA,Nasdaq,Communication Services,Movies & Entertainment,New York City,New York,"22,965",2019,21.28,32.22,32.95,40.90,47.46,26.11,"8,864"
+Vulcan Materials,VMC,NYSE,Materials,Construction Materials,Birmingham,Alabama,"11,437",1909,21.27,160.31,199.99,182.42,213.65,156.53,727
+Mosaic,MOS,NYSE,Materials,Fertilizers & Agricultural Chemicals,Tampa,Florida,"12,525",1865,20.98,61.17,36.75,34.77,79.28,28.26,"9,105"
+Fortive,FTV,NYSE,Industrials,Industrial Machinery,Everett,Washington,"18,000",2016,20.89,58.58,78.37,71.63,79.87,56.06,"2,297"
+Martin Marietta,MLM,NYSE,Materials,Construction Materials,Raleigh,North Carolina,"10,000",1993,20.44,324.65,421.41,362.27,446.46,316.73,533
+Live Nation Entertainment,LYV,NYSE,Communication Services,Movies & Entertainment,Beverly Hills,California,"10,200",2010,20.36,90.50,112.74,90.37,127.75,74.23,"1,727"
+Mid-America Apartments,MAA,NYSE,Real Estate,Residential REITs,Memphis,Tennessee,"2,429",1977,20.24,173.46,207.12,159.55,231.63,155.49,622
+Gartner,IT,NYSE,Information Technology,IT Consulting & Other Services,Stamford,Connecticut,"16,600",1979,20.14,248.65,324.00,231.73,369.00,226.89,545
+Tractor Supply,TSCO,Nasdaq,Consumer Discretionary,Specialty Stores,Brentwood,Tennessee,"22,000",1938,20.13,183.76,225.30,180.40,241.54,170.82,"1,362"
+CF Industries,CF,NYSE,Materials,Fertilizers & Agricultural Chemicals,Deerfield,Illinois,"3,000",1946,19.98,100.35,65.24,51.79,113.49,43.19,"2,593"
+CMS Energy,CMS,NYSE,Utilities,Multi-Utilities,Jackson,Michigan,"8,504",1886,19.97,69.21,61.31,63.25,73.76,57.92,"1,549"
+Expedia Group,EXPE,Nasdaq,Consumer Discretionary,Internet & Direct Marketing Retail,Seattle,Washington,"14,800",1996,19.57,126.57,177.97,173.06,217.72,119.05,"3,098"
+Duke Realty,DRE,NYSE,Real Estate,Industrial REITs,Indianapolis,Indiana,340,1972,19.57,51.07,59.13,46.27,66.22,45.18,"4,167"
+Cincinnati Financial,CINF,Nasdaq,Financials,Property & Casualty Insurance,Fairfield,Ohio,"5,166",1950,19.56,122.67,120.94,119.25,143.22,108.88,556
+Monolithic Power Systems,MPWR,Nasdaq,Information Technology,Semiconductors,Kirkland,Washington,"2,773",1997,19.50,416.69,545.84,331.35,580.00,320.01,297
+Garmin,GRMN,NYSE,Consumer Discretionary,Consumer Electronics,Schaffhausen,Switzerland,"18,700",1989,19.44,100.78,142.78,140.87,178.81,97.36,579
+Amcor,AMCR,NYSE,Materials,Paper Packaging,Warmley,United Kingdom,"46,000",2019,19.43,12.96,11.77,11.72,13.37,10.66,"12,764"
+Hologic,HOLX,Nasdaq,Health Care,Health Care Equipment,Marlborough,Massachusetts,"6,705",1985,19.39,78.12,74.35,62.68,81.04,60.10,"1,565"
+United Rentals,URI,NYSE,Industrials,Trading Companies & Distributors,Stamford,Connecticut,"20,400",1997,19.33,272.61,375.19,324.38,414.99,262.76,863
+Marathon Oil,MRO,NYSE,Energy,Oil & Gas Exploration & Production,Houston,Texas,"1,531",1887,19.29,26.88,16.51,11.66,29.00,10.41,"17,318"
+CenterPoint Energy,CNP,NYSE,Utilities,Multi-Utilities,Houston,Texas,"9,418",1882,19.25,30.66,26.61,24.94,33.00,24.23,"4,599"
+Waters,WAT,NYSE,Health Care,Health Care Distributors,Milford,Massachusetts,"7,800",1958,19.21,323.83,342.64,321.14,428.22,288.32,272
+Raymond James,RJF,NYSE,Financials,Investment Banking & Brokerage,St. Petersburg,Florida,"15,000",1962,19.11,91.54,100.71,87.86,117.37,81.96,"1,697"
+Dover,DOV,NYSE,Industrials,Industrial Machinery,Downers Grove,Illinois,"25,000",1955,18.85,129.54,175.98,149.00,184.05,127.04,748
+Regions,RF,NYSE,Financials,Regional Banks,Birmingham,Alabama,"19,723",1971,18.83,20.02,24.59,22.46,25.57,18.02,"7,979"
+Huntington National Bank,HBAN,Nasdaq,Financials,Regional Banks,Columbus,Ohio,"19,722",1866,18.74,13.11,16.40,15.36,17.79,12.56,"12,717"
+Citizens,CFG,NYSE,Financials,Regional Banks,Providence,Rhode Island,"17,463",1828,18.70,37.70,50.84,48.38,57.00,36.76,"5,379"
+PerkinElmer,PKI,NYSE,Health Care,Health Care Equipment,Waltham,Massachusetts,"16,700",1937,18.51,143.55,179.62,143.10,203.16,137.37,657
+Essex,ESS,NYSE,Real Estate,Residential REITs,San Mateo,California,"1,757",1971,18.43,281.60,351.40,292.85,363.36,278.85,440
+Hewlett Packard Enterprise,HPE,NYSE,Information Technology,"Technology Hardware, Storage & Peripherals",Houston,Texas,"60,400",2015,18.41,15.04,14.81,16.05,17.76,12.99,"11,307"
+VF Corporation,VFC,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Denver,Colorado,"40,000",1899,18.40,44.61,76.26,78.17,85.36,44.17,"5,473"
+EPAM,EPAM,NYSE,Information Technology,IT Consulting & Other Services,Newtown,Pennsylvania,"58,824",1993,18.31,326.98,602.94,479.27,725.40,168.59,724
+Ingersoll Rand,IR,NYSE,Industrials,Industrial Machinery,Davidson,North Carolina,"16,000",1859,18.25,44.28,60.69,48.68,62.64,41.60,"3,879"
+Genuine Parts,GPC,NYSE,Consumer Discretionary,Specialty Stores,Atlanta,Georgia,"52,000",1925,18.20,132.00,137.86,129.98,142.97,115.63,"1,056"
+Molina Healthcare,MOH,NYSE,Health Care,Managed Health Care,Long Beach,California,"14,000",1980,18.17,309.32,306.50,253.00,350.19,239.20,316
+Verisign,VRSN,Nasdaq,Information Technology,Internet Services & Infrastructure,Dulles,Virginia,904,1995,18.14,163.45,241.90,224.50,257.03,159.69,610
+Teledyne,TDY,NYSE,Industrials,Aerospace & Defense,Thousand Oaks,California,"14,500",1960,18.09,390.60,435.89,409.86,493.97,374.03,303
+Fox Corporation (Class B),FOX,Nasdaq,Communication Services,Movies & Entertainment,New York City,New York,"9,000",2019,18.01,33.33,39.13,37.15,44.95,31.35,"2,512"
+Fox Corporation (Class A),FOXA,Nasdaq,Communication Services,Movies & Entertainment,New York City,New York,"9,000",2019,18.01,33.33,39.13,37.15,44.95,31.35,"2,512"
+Catalent,CTLT,NYSE,Health Care,Pharmaceuticals,Somerset,New Jersey,"17,300",2007,17.96,99.73,127.86,103.45,142.64,86.34,926
+Ulta Beauty,ULTA,Nasdaq,Consumer Discretionary,Specialty Stores,Bolingbrook,Illinois,"16,500",1990,17.92,351.31,408.93,320.99,438.63,312.35,866
+Fleetcor,FLT,NYSE,Information Technology,Data Processing & Outsourced Services,Norcross,Georgia,"9,700",2000,17.87,225.80,226.18,272.20,282.02,200.78,500
+Western Digital,WDC,Nasdaq,Information Technology,"Technology Hardware, Storage & Peripherals",San Jose,California,"65,600",1970,17.79,58.01,60.53,73.05,78.19,43.85,"3,123"
+Expeditors,EXPD,Nasdaq,Industrials,Air Freight & Logistics,Seattle,Washington,"19,070",1979,17.69,103.69,128.70,122.97,137.80,94.95,"1,172"
+Berkley,WRB,NYSE,Financials,Property & Casualty Insurance,Greenwich,Connecticut,"7,681",1967,17.63,66.29,56.33,51.21,71.53,46.53,"1,547"
+International Paper,IP,NYSE,Materials,Paper Packaging,Memphis,Tennessee,"38,200",1898,17.60,47.82,48.31,63.58,61.80,40.45,"2,746"
+Stanley Black & Decker,SWK,NYSE,Industrials,Industrial Machinery,New Britain,Connecticut,"71,300",1843,17.56,116.05,189.50,212.19,219.59,112.38,"1,374"
+Principal,PFG,Nasdaq,Financials,Life & Health Insurance,Des Moines,Iowa,"18,600",1879,17.50,69.75,73.54,63.99,80.36,58.66,"1,638"
+Jacobs,J,NYSE,Industrials,Construction & Engineering,Dallas,Texas,"55,000",1947,17.49,133.77,144.00,139.27,150.32,114.11,631
+Rollins,ROL,NYSE,Industrials,Environmental & Facilities Services,Atlanta,Georgia,"16,482",1948,17.37,34.33,35.90,34.03,40.02,28.51,"1,223"
+J.B. Hunt,JBHT,Nasdaq,Industrials,Trucking,Lowell,Arkansas,"33,045",1961,17.22,160.62,200.58,167.67,218.18,155.11,498
+Seagate,STX,Nasdaq,Information Technology,"Technology Hardware, Storage & Peripherals",Dublin,Ireland,"40,000",1979,17.21,82.51,101.58,93.50,117.67,76.28,"1,275"
+Zebra,ZBRA,Nasdaq,Information Technology,Electronic Equipment & Instruments,Lincolnshire,Illinois,"9,800",1969,17.09,324.10,598.74,501.92,615.00,309.00,530
+KeyCorp,KEY,NYSE,Financials,Regional Banks,Cleveland,Ohio,"17,110",1825,17.08,18.36,23.97,22.67,27.17,17.90,"9,015"
+Clorox,CLX,NYSE,Consumer Staples,Household Products,Oakland,California,"9,000",1913,17.02,138.15,168.84,178.65,191.75,127.02,963
+CooperCompanies,COO,NYSE,Health Care,Health Care Supplies,San Ramon,California,"12,000",1958,16.82,338.68,398.44,394.49,463.59,309.43,377
+Paycom,PAYC,NYSE,Information Technology,Application Software,Oklahoma City,Oklahoma,"5,385",1998,16.68,269.66,448.37,330.00,558.97,259.95,363
+Incyte,INCY,Nasdaq,Health Care,Biotechnology,Wilmington,Delaware,"2,094",1991,16.59,74.34,63.81,82.68,88.26,61.91,"1,013"
+Skyworks,SWKS,Nasdaq,Information Technology,Semiconductors,Woburn,Massachusetts,"11,000",2002,16.58,101.25,156.80,170.03,197.62,97.59,"1,391"
+Quest Diagnostics,DGX,NYSE,Health Care,Health Care Services,Secaucus,New Jersey,"40,000",1967,16.55,140.07,151.04,130.85,174.16,125.77,"1,157"
+Boston Properties,BXP,NYSE,Real Estate,Office REITs,Boston,Massachusetts,743,1970,16.49,105.08,117.91,114.43,133.11,103.83,"1,054"
+Teradyne,TER,Nasdaq,Information Technology,Semiconductor Equipment,North Reading,Massachusetts,"5,900",1960,16.40,102.18,149.10,128.53,168.91,97.63,"1,290"
+Celanese,CE,NYSE,Materials,Specialty Chemicals,Irving,Texas,"8,529",1918,16.33,150.02,167.49,163.81,176.50,132.26,662
+Trimble,TRMB,Nasdaq,Information Technology,Electronic Equipment & Instruments,Sunnyvale,California,"11,931",1978,16.32,65.03,85.83,78.29,96.49,59.89,"1,357"
+Broadridge,BR,NYSE,Information Technology,Data Processing & Outsourced Services,Lake Success,New York,"13,704",1962,16.29,138.02,173.06,159.17,185.40,132.68,323
+Best Buy,BBY,NYSE,Consumer Discretionary,Computer & Electronics Retail,Richfield,Minnesota,"105,000",1966,16.28,73.32,121.01,114.42,141.97,69.07,"7,655"
+Synchrony,SYF,NYSE,Financials,Consumer Finance,Stamford,Connecticut,"18,000",2003,16.28,32.56,49.71,46.26,52.49,31.37,"7,474"
+Quanta,PWR,NYSE,Industrials,Construction & Engineering,Houston,Texas,"43,700",1997,16.24,113.53,120.83,93.82,140.04,84.40,"1,373"
+Pool Corporation,POOL,Nasdaq,Consumer Discretionary,Distributors,Covington,Louisiana,"5,500",1993,16.23,393.46,561.57,429.66,582.27,377.52,592
+Wabtec,WAB,NYSE,Industrials,Construction Machinery & Heavy Trucks,Pittsburgh,Pennsylvania,"25,000",1869,15.88,87.05,96.05,81.12,100.05,76.30,663
+Healthpeak,PEAK,NYSE,Real Estate,Health Care REITs,Long Beach,California,196,1985,15.87,29.28,34.22,33.55,37.69,28.75,"4,681"
+Akamai,AKAM,Nasdaq,Information Technology,Internet Services & Infrastructure,Cambridge,Massachusetts,"8,700",1998,15.63,98.48,111.80,115.16,123.25,93.74,"1,237"
+Bio-Rad,BIO,NYSE,Health Care,Life Sciences Tools & Services,Hercules,California,"7,900",1952,15.55,523.32,741.16,592.93,832.70,468.86,163
+Atmos Energy,ATO,NYSE,Utilities,Gas Utilities,Dallas,Texas,"4,684",1906,15.53,110.69,95.31,98.29,122.96,85.80,"1,295"
+Brown & Brown,BRO,NYSE,Financials,Insurance Brokers,Daytona Beach,Florida,"12,023",1939,15.53,54.71,65.81,51.82,74.00,51.47,"2,291"
+Evergy,EVRG,NYSE,Utilities,Electric Utilities,Kansas City,Missouri,"4,930",1909,15.47,66.70,66.20,61.43,73.13,59.46,"1,366"
+Loews Corporation,L,NYSE,Financials,Multi-line Insurance,New York City,New York,"10,340",1959,15.45,62.94,57.40,57.36,68.20,51.35,"1,278"
+Omnicom Group,OMC,NYSE,Communication Services,Advertising,New York City,New York,"71,700",1986,15.40,74.90,69.11,81.99,91.61,65.76,"1,224"
+Conagra Brands,CAG,NYSE,Consumer Staples,Packaged Foods & Meats,Chicago,Illinois,"18,600",1919,15.22,31.74,31.53,38.11,39.09,30.06,"4,030"
+Cardinal Health,CAH,NYSE,Health Care,Health Care Distributors,Dublin,Ohio,"47,300",1971,15.20,55.83,49.14,55.62,64.53,45.85,"2,083"
+FMC,FMC,NYSE,Materials,Fertilizers & Agricultural Chemicals,Philadelphia,Pennsylvania,"6,400",1883,15.04,121.38,104.91,115.55,140.99,87.27,786
+UDR,UDR,NYSE,Real Estate,Residential REITs,Highlands Ranch,Colorado,"1,219",1972,14.83,46.28,56.71,47.05,61.06,45.62,"1,829"
+NetApp,NTAP,Nasdaq,Information Technology,"Technology Hardware, Storage & Peripherals",Sunnyvale,California,"11,000",1992,14.83,68.26,86.76,78.21,96.82,64.58,"2,070"
+CarMax,KMX,NYSE,Consumer Discretionary,Specialty Stores,Richmond,Virginia,"32,647",1993,14.81,90.80,146.32,113.37,155.98,85.36,"1,817"
+Carnival,CCL,NYSE,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Miami,Florida,"39,000",1972,14.81,13.58,20.15,28.58,31.52,12.70,"41,410"
+Camden,CPT,NYSE,Real Estate,Residential REITs,Houston,Texas,"1,700",1981,14.77,138.00,167.58,125.30,180.37,120.65,617
+Alliant Energy,LNT,Nasdaq,Utilities,Electric Utilities,Madison,Wisconsin,"3,313",1917,14.72,58.50,57.86,57.60,65.37,54.46,"1,807"
+Xylem,XYL,NYSE,Industrials,Industrial Machinery,White Plains,New York,"17,300",2011,14.71,81.95,126.57,116.77,138.78,79.62,817
+MGM Resorts,MGM,NYSE,Consumer Discretionary,Casinos & Gaming,Paradise,Nevada,"42,000",1986,14.64,33.65,42.51,42.21,51.17,32.37,"8,361"
+Darden,DRI,NYSE,Consumer Discretionary,Restaurants,Orlando,Florida,"156,883",1938,14.50,116.67,148.40,140.43,164.28,113.54,933
+Iron Mountain,IRM,NYSE,Real Estate,Specialized REITs,Boston,Massachusetts,"26,750",1951,14.38,48.63,46.85,43.22,58.61,41.67,"1,416"
+Bio-Techne,TECH,Nasdaq,Health Care,Life Sciences Tools & Services,Minneapolis,Minnesota,"2,600",1976,14.37,366.44,472.72,420.15,543.85,335.02,270
+Viatris,VTRS,Nasdaq,Health Care,Pharmaceuticals,Pittsburgh,Pennsylvania,"37,000",1961,14.31,11.69,13.16,14.98,15.92,9.66,"9,531"
+United Airlines,UAL,Nasdaq,Industrials,Airlines,Chicago,Illinois,"87,400",1967,14.23,44.21,46.70,56.98,60.59,30.54,"10,144"
+SolarEdge,SEDG,Nasdaq,Information Technology,Semiconductor Equipment,Herzliya,Israel,"3,964",2006,14.22,252.18,350.02,251.75,389.71,200.86,723
+Tyler Technologies,TYL,NYSE,Information Technology,Application Software,Plano,Texas,"6,959",1966,14.17,340.29,517.72,404.12,557.55,327.97,252
+Royal Caribbean Group,RCL,NYSE,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Miami,Florida,"85,000",1997,14.13,57.43,78.84,89.00,98.27,53.58,"3,407"
+NortonLifeLock,NLOK,Nasdaq,Information Technology,Application Software,Tempe,Arizona,"2,808",1982,14.11,23.76,24.75,27.23,30.92,23.47,"5,094"
+IDEX,IEX,NYSE,Industrials,Industrial Machinery,Lake Forest,Illinois,"7,536",1988,14.10,183.19,236.37,221.52,240.33,179.30,410
+Generac,GNRC,NYSE,Industrials,Electrical Components & Equipment,Waukesha,Wisconsin,"8,955",1959,14.10,223.69,432.83,312.90,524.31,197.94,"1,103"
+APA Corporation,APA,Nasdaq,Energy,Oil & Gas Exploration & Production,Houston,Texas,"2,253",1954,14.09,40.82,28.47,19.94,45.27,15.55,"8,511"
+"NVR, Inc.",NVR,NYSE,Consumer Discretionary,Homebuilding,Reston,Virginia,"6,600",1980,14.02,"4,155.68","5,320.00","4,836.36","5,982.45","4,087.17",19
+Packaging Corporation of America,PKG,NYSE,Materials,Paper Packaging,Lake Forest,Illinois,"15,200",1959,13.97,150.49,134.70,149.19,168.50,124.78,537
+Campbell's,CPB,NYSE,Consumer Staples,Packaged Foods & Meats,Camden,New Jersey,"14,100",1869,13.89,46.06,41.51,48.41,51.94,39.76,"2,286"
+Howmet Aerospace,HWM,NYSE,Industrials,Aerospace & Defense,Pittsburgh,Pennsylvania,"19,900",2016,13.86,33.45,30.78,33.77,37.66,27.41,"2,246"
+FactSet,FDS,NYSE,Financials,Financial Exchanges & Data,Norwalk,Connecticut,"10,784",1978,13.82,360.42,465.01,329.73,495.40,319.65,277
+Leidos,LDOS,NYSE,Industrials,Diversified Support Services,Reston,Virginia,"43,000",1969,13.75,101.52,93.29,102.36,111.12,81.07,584
+AES,AES,NYSE,Utilities,Independent Power Producers & Energy Traders,Arlington,Virginia,"8,450",1981,13.71,20.67,24.61,25.34,27.00,19.14,"3,943"
+LKQ Corporation,LKQ,Nasdaq,Consumer Discretionary,Distributors,Chicago,Illinois,"46,000",1998,13.68,49.73,59.62,50.02,60.43,42.36,"2,021"
+Kimco Realty,KIM,NYSE,Real Estate,Retail REITs,New Hyde Park,New York,606,1958,13.60,22.57,24.18,20.53,26.57,19.54,"4,078"
+Smucker,SJM,NYSE,Consumer Staples,Packaged Foods & Meats,Orrville,Ohio,"7,100",1897,13.59,126.36,133.63,135.29,146.74,118.55,"1,519"
+Teleflex,TFX,NYSE,Health Care,Health Care Equipment,Wayne,Pennsylvania,"14,000",1943,13.47,288.69,315.29,405.59,428.36,256.77,346
+Take-Two Interactive,TTWO,Nasdaq,Communication Services,Interactive Home Entertainment,New York City,New York,"7,799",1993,13.45,119.76,165.13,184.62,195.83,101.85,"7,574"
+Avery Dennison,AVY,NYSE,Materials,Paper Packaging,Glendale,California,"36,000",1990,13.44,167.82,221.45,216.97,229.24,156.51,511
+Textron,TXT,NYSE,Industrials,Aerospace & Defense,Providence,Rhode Island,"33,000",1923,13.44,62.76,76.09,66.89,79.45,60.36,"1,301"
+Host Hotels & Resorts,HST,Nasdaq,Real Estate,Hotel & Resort REITs,Bethesda,Maryland,160,1993,13.30,19.45,17.45,16.79,21.63,14.67,"8,873"
+PTC,PTC,Nasdaq,Information Technology,Application Software,Boston,Massachusetts,"6,709",1985,13.27,109.51,109.72,133.03,153.73,96.55,469
+Eastman,EMN,NYSE,Materials,Diversified Chemicals,Kingsport,Tennessee,"14,000",1920,13.14,103.19,116.69,123.78,130.47,98.24,786
+Jack Henry & Associates,JKHY,Nasdaq,Information Technology,Data Processing & Outsourced Services,Monett,Missouri,"6,714",1976,13.05,178.12,153.04,156.41,205.37,147.50,392
+C.H. Robinson,CHRW,Nasdaq,Industrials,Air Freight & Logistics,Eden Prairie,Minnesota,"17,258",1905,12.97,101.19,97.77,96.14,112.15,84.67,746
+Franklin Templeton,BEN,NYSE,Financials,Asset Management & Custody Banks,San Mateo,California,"9,500",1947,12.90,25.11,34.69,33.08,38.27,23.63,"2,507"
+Masco,MAS,NYSE,Industrials,Building Products,Livonia,Michigan,"20,000",1929,12.81,53.98,68.22,61.05,71.06,48.78,"2,126"
+Citrix,CTXS,Nasdaq,Information Technology,Application Software,Fort Lauderdale,Florida,"9,700",1989,12.57,99.46,84.01,115.23,121.87,78.07,"1,318"
+Domino's,DPZ,NYSE,Consumer Discretionary,Restaurants,Ann Arbor,Michigan,"13,500",1960,12.32,336.43,531.91,421.04,567.57,321.15,472
+NiSource,NI,NYSE,Utilities,Multi-Utilities,Merrillville,Indiana,"7,272",1912,12.29,30.31,25.54,25.33,32.59,23.65,"5,240"
+Interpublic Group,IPG,NYSE,Communication Services,Advertising,New York City,New York,"55,600",1961,12.07,30.71,34.51,32.77,39.98,30.11,"3,254"
+Signature Bank,SBNY,Nasdaq,Financials,Regional Banks,New York City,New York,"1,854",2001,11.98,188.99,336.14,237.94,374.76,179.05,"1,040"
+Nordson,NDSN,Nasdaq,Industrials,Industrial Machinery,Westlake,Ohio,"7,100",1935,11.89,205.89,267.99,216.83,272.28,198.28,328
+Charles River,CRL,NYSE,Health Care,Life Sciences Tools & Services,Wilmington,Massachusetts,"18,600",1947,11.82,231.77,369.98,329.52,460.21,217.20,504
+Hasbro,HAS,Nasdaq,Consumer Discretionary,Leisure Products,Pawtucket,Rhode Island,"6,640",1923,11.81,86.76,99.50,94.04,105.73,80.72,"1,318"
+Qorvo,QRVO,Nasdaq,Information Technology,Semiconductors,Greensboro,North Carolina,"8,400",2015,11.78,104.83,152.59,180.62,201.46,98.23,"1,727"
+Henry Schein,HSIC,Nasdaq,Health Care,Health Care Distributors,Melville,New York,"21,600",1932,11.52,82.87,76.90,76.26,92.68,70.25,687
+Lumen,LUMN,NYSE,Communication Services,Alternative Carriers,Monroe,Louisiana,"35,000",1983,11.43,11.36,13.82,14.06,15.45,9.31,"11,408"
+Cboe,CBOE,CBOE,Financials,Financial Exchanges & Data,Chicago,Illinois,"1,196",1973,11.36,105.56,128.99,109.77,139.00,103.82,565
+WestRock,WRK,NYSE,Materials,Paper Packaging,Atlanta,Georgia,"49,900",2015,11.25,44.89,47.99,57.50,59.77,40.78,"2,325"
+Snap-on,SNA,NYSE,Industrials,Industrial Machinery,Kenosha,Wisconsin,"12,800",1920,11.21,215.03,217.11,251.71,257.98,197.75,291
+Molson Coors,TAP,NYSE,Consumer Staples,Brewers,Chicago,Illinois,"16,300",1786,11.12,50.78,47.73,58.06,61.48,42.46,"1,203"
+Advance Auto Parts,AAP,NYSE,Consumer Discretionary,Automotive Retail,Raleigh,North Carolina,"41,000",1932,11.11,196.07,235.77,188.00,244.55,176.72,"1,585"
+Dish,DISH,Nasdaq,Communication Services,Cable & Satellite,Meridian,Colorado,"14,500",1980,11.01,20.51,33.13,43.35,46.31,17.04,"3,163"
+Regency Centers,REG,Nasdaq,Real Estate,Retail REITs,Jacksonville,Florida,432,1963,10.90,64.21,73.86,63.31,78.78,61.48,879
+NRG Energy,NRG,NYSE,Utilities,Independent Power Producers & Energy Traders,Houston,Texas,"6,635",1992,10.85,46.21,36.87,32.75,46.86,31.94,"4,061"
+Caesars Entertainment,CZR,Nasdaq,Consumer Discretionary,Casinos & Gaming,Reno,Nevada,"23,000",1973,10.74,48.63,93.94,107.06,119.81,46.08,"5,010"
+Abiomed,ABMD,Nasdaq,Health Care,Health Care Equipment,Danvers,Massachusetts,"1,725",1981,10.73,238.65,328.18,283.88,379.30,226.46,415
+Everest,RE,NYSE,Financials,Reinsurance,Hamilton,Bermuda,"1,947",1973,10.67,276.34,279.49,254.44,308.20,234.87,272
+American Airlines Group,AAL,Nasdaq,Industrials,Airlines,Fort Worth,Texas,"123,400",1934,10.56,16.75,19.47,23.21,26.04,12.44,"24,684"
+MarketAxess,MKTX,Nasdaq,Financials,Financial Exchanges & Data,New York City,New York,676,2000,10.54,267.94,362.75,458.52,498.97,249.01,503
+News Corp (Class B),NWS,Nasdaq,Communication Services,Publishing,New York City,New York,"24,000",2013,10.37,17.78,22.37,25.47,26.21,16.57,641
+News Corp (Class A),NWSA,Nasdaq,Communication Services,Publishing,New York City,New York,"24,000",2013,10.37,17.50,22.15,26.64,27.51,16.54,"3,396"
+PulteGroup,PHM,NYSE,Consumer Discretionary,Homebuilding,Atlanta,Georgia,"6,182",1956,10.16,41.67,52.90,56.53,58.83,39.61,"2,697"
+Etsy,ETSY,Nasdaq,Consumer Discretionary,Internet & Direct Marketing Retail,New York City,New York,"2,576",2005,9.96,79.24,279.53,167.05,307.75,74.66,"4,663"
+Robert Half,RHI,NYSE,Industrials,Human Resource & Employment Services,Menlo Park,California,"14,600",1948,9.79,88.92,117.55,87.22,125.77,83.46,758
+Whirlpool,WHR,NYSE,Consumer Discretionary,Household Appliances,Benton Harbor,Michigan,"69,000",1911,9.77,171.82,231.27,236.50,245.44,164.52,806
+Allegion,ALLE,NYSE,Industrials,Building Products,New York City,New York,"11,000",1908,9.58,108.81,132.04,139.24,148.70,105.06,498
+Comerica,CMA,NYSE,Financials,Diversified Banks,Dallas,Texas,"7,223",1849,9.56,72.80,90.57,75.83,102.09,63.07,"1,607"
+Assurant,AIZ,NYSE,Financials,Multi-line Insurance,New York City,New York,"15,600",1892,9.53,180.44,164.70,157.34,194.12,144.18,540
+F5,FFIV,Nasdaq,Information Technology,Communications Equipment,Seattle,Washington,"6,461",1996,9.45,155.31,230.95,185.06,249.00,151.66,411
+Juniper Networks,JNPR,NYSE,Information Technology,Communications Equipment,Sunnyvale,California,"10,191",1996,9.33,28.80,32.33,26.58,38.14,25.48,"3,339"
+Bath & Body Works,BBWI,NYSE,Consumer Discretionary,Specialty Stores,Columbus,Ohio,"8,800",1963,9.23,40.03,75.53,53.80,82.00,36.50,"5,677"
+Globe Life,GL,NYSE,Financials,Life & Health Insurance,McKinney,Texas,"3,222",1900,9.22,93.88,94.63,103.69,108.61,85.25,403
+Nielsen,NLSN,NYSE,Industrials,Research & Consulting Services,New York City,New York,"14,000",1923,9.17,25.44,21.40,26.96,27.79,16.02,"3,074"
+BorgWarner,BWA,NYSE,Consumer Discretionary,Auto Parts & Equipment,Auburn Hills,Michigan,"49,300",1880,9.14,38.86,47.74,49.80,55.55,34.85,"1,613"
+Lamb Weston,LW,NYSE,Consumer Staples,Packaged Foods & Meats,Eagle,Idaho,"7,800",2016,9.12,62.42,57.11,80.25,85.72,49.71,907
+Lincoln Financial,LNC,NYSE,Financials,Multi-line Insurance,Radnor,Pennsylvania,"10,848",1905,9.06,52.71,71.60,67.16,77.57,50.55,"1,929"
+A. O. Smith,AOS,NYSE,Industrials,Building Products,Milwaukee,Wisconsin,"13,700",1916,9.01,58.45,82.45,69.16,86.74,56.61,796
+Universal Health Services,UHS,NYSE,Health Care,Health Care Facilities,King of Prussia,Pennsylvania,"68,300",1979,9.00,118.89,129.95,159.75,165.00,116.23,587
+DaVita,DVA,NYSE,Health Care,Health Care Facilities,Denver,Colorado,"69,000",1979,8.93,94.25,103.68,120.87,136.48,92.63,518
+Sealed Air,SEE,NYSE,Materials,Paper Packaging,Charlotte,North Carolina,"16,500",1960,8.75,59.81,65.78,56.03,70.73,53.87,"1,103"
+Fortune Brands,FBHS,NYSE,Industrials,Building Products,Deerfield,Illinois,"28,056",2011,8.73,66.44,105.98,104.28,109.23,64.85,"1,248"
+Federal Realty,FRT,NYSE,Real Estate,Retail REITs,Rockville,Maryland,310,1962,8.69,111.21,130.54,112.79,140.51,107.54,415
+Ceridian,CDAY,NYSE,Information Technology,Application Software,Minneapolis,Minnesota,"7,462",1992,8.64,55.65,110.33,88.37,130.37,48.93,"2,685"
+Mohawk Industries,MHK,NYSE,Consumer Discretionary,Home Furnishings,Calhoun,Georgia,"43,000",1878,8.59,139.21,181.25,207.36,214.33,117.56,406
+Pinnacle West,PNW,NYSE,Utilities,Multi-Utilities,Phoenix,Arizona,91,1985,8.51,75.53,67.11,86.08,88.34,62.78,542
+Invesco,IVZ,NYSE,Financials,Asset Management & Custody Banks,Atlanta,Georgia,"8,549",1935,8.45,18.02,24.46,26.55,29.71,16.76,"3,112"
+Dentsply Sirona,XRAY,Nasdaq,Health Care,Health Care Supplies,Charlotte,North Carolina,"15,000",2016,8.13,37.32,52.01,67.10,68.82,35.00,"1,747"
+Pentair,PNR,NYSE,Industrials,Industrial Machinery,Worsley,UK,"11,250",1966,8.10,48.35,77.90,68.32,80.40,47.42,"1,044"
+Newell Brands,NWL,Nasdaq,Consumer Discretionary,Housewares & Specialties,Atlanta,Georgia,"32,000",1903,8.04,19.67,23.15,27.95,29.10,18.90,"2,957"
+Huntington Ingalls Industries,HII,NYSE,Industrials,Aerospace & Defense,Newport News,Virginia,"44,000",2011,7.92,200.73,189.22,211.88,228.66,175.50,318
+Tapestry,TPR,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",New York City,New York,"12,100",2017,7.91,30.97,45.99,43.32,47.05,26.39,"4,137"
+Zions Bancorp,ZION,Nasdaq,Financials,Regional Banks,Salt Lake City,Utah,"9,685",1873,7.87,52.06,67.61,56.02,75.44,47.06,"1,488"
+Wynn Resorts,WYNN,Nasdaq,Consumer Discretionary,Casinos & Gaming,Paradise,Nevada,"26,950",2002,7.31,62.80,91.69,129.03,136.83,56.36,"2,312"
+DXC Technology,DXC,NYSE,Information Technology,IT Consulting & Other Services,Tysons Corner,Virginia,"134,000",2017,7.24,29.64,31.43,36.94,44.18,27.28,"1,714"
+Ralph Lauren,RL,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",New York City,New York,"12,100",1967,6.64,92.09,124.35,121.55,135.99,90.17,"2,188"
+Vornado Realty Trust,VNO,NYSE,Real Estate,Office REITs,New York City,New York,"3,224",1982,6.43,33.42,44.06,45.67,50.91,32.81,"1,342"
+Norwegian Cruise Line Holdings,NCLH,NYSE,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Miami,Florida,"34,700",2011,6.41,15.95,22.56,31.12,33.95,14.30,"18,346"
+Alaska Air Group,ALK,NYSE,Industrials,Airlines,Seattle,Washington,"20,550",1985,5.81,46.76,52.73,68.25,70.90,43.39,"1,374"
+Penn National Gaming,PENN,Nasdaq,Consumer Discretionary,Casinos & Gaming,Wyomissing,Pennsylvania,"21,973",1972,5.30,30.67,51.81,79.74,86.40,28.30,"5,334"
+IPG Photonics,IPGP,Nasdaq,Information Technology,Electronic Manufacturing Services,Oxford,Massachusetts,"6,580",1990,5.19,98.35,164.41,208.11,220.51,90.51,592
+PVH,PVH,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",New York City,New York,"19,000",1881,4.38,64.49,119.54,110.26,125.42,62.21,"1,068"
+Under Armour (Class A),UAA,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Baltimore,Maryland,"7,100",1996,4.30,9.28,24.80,21.39,27.28,9.16,"14,745"
+Under Armour (Class C),UA,NYSE,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Baltimore,Maryland,"7,100",1996,4.30,8.18,21.20,17.94,23.00,8.09,"6,054" 
