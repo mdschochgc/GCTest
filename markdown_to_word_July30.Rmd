@@ -1,0 +1,35 @@
+---
+title: "mark_to_word"
+author: "Martin Schoch"
+date: "7/30/2022"
+output: word_document
+---
+
+```{r load-packages, message = FALSE}
+library(tidyverse)
+library(openintro)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+### Exercise 1:
+
+Insert your written code for Ex 1 here.
+
+```{r cars}
+summary(cars)
+```
+
+### Exercise 2:
+
+Insert your code for Ex 2 here.
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
