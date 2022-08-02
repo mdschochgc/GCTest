@@ -1,0 +1,34 @@
+---
+
+title: "R Notebook"
+output: word_document
+---
+NAME:  
+DATE:  
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(tidyverse)
+name = "Student 1"
+name
+plot(cars)
+barplot (locTable_prop, legend = TRUE, beside = TRUE, xlab = "Most Important Goal", ylab = "% of Students", main = "Elementary School Student Goals by Loc", ylim = c(0,max(locTable_prop)+0.1), col = c("red", "blue","green") )
+ barplot(answer$percent_dep_delay, names = answer$carrier, col = c("red", "blue", "yellow"), cex.names = 0.6, cex.axis = 0.6, ylim = c(0, max(answer$percent_dep_delay+0.1)), main = "Departure Delay Rates by Airline", xlab = "Carrier", ylab = "Percentage")
+ mybarplot_percent <- barplot(rich4_matrix_percent, legend.text = rich4$Gender, beside = TRUE, xlab = "Opinion", ylab = "% Choosing", cex.names = 0.5,  cex.lab = 0.7, cex.axis = 0.5, ylim = c(0, max(rich4_matrix_percent)+.2) , main = "Distribution of Opinion on Getting Rich by Gender" , args.legend= list(x = "topright", inset=c(-0.1, -0.1)), col = c("lightgreen", "lightblue") )
+text(mybarplot_percent,rich4_matrix_percent,labels=as.character(rich4_matrix_percent), cex = 0.6 )
+```
+```{r}
+library(openintro)
+dim(ames)
+names(ames)
+nrow(ames)
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. 

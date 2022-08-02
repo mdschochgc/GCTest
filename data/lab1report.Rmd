@@ -1,0 +1,236 @@
+---
+title: "Your Turn #1"
+output:
+  html_document:
+    css: http://www.bradthiessen.com/batlab3.css
+    fig_height: 3.9
+    fig_width: 6.3
+    df_print: tibble
+    highlight: pygments
+    theme: spacelab
+    toc: no
+---
+
+### Lab Report #1: Introduction to R, RStudio, simulations, and lab reports.
+
+*****
+
+**Date:** [Enter today's date]
+
+**Author:** [Enter name of person typing this report here]
+
+**Lab Partner(s):** [Enter names of other students who worked on this lab.]
+
+```{r 'prereqs', message=FALSE, echo=FALSE}
+# You can ignore this stuff
+# It just loads the tidyverse and mosaic packages
+library(tidyverse)
+library(mosaic)
+```
+
+<br />
+
+1. Create a variable named "my_feelings" and assign to it your feelings about statistics.
+
+```{r}
+#### Exercise 1
+# Type your code in this shaded section (just below this line)
+my_feelings <- "Statistics is the best!"
+
+# Ok, I did this one for you.
+```
+
+<br />
+
+2. Use the rflip() command to flip 20 fair coins. Then, use **n**flip() to flip 20 coins. Notice the output is simplified - it only shows the number of heads. Use either rflip() or nflip() to flip 10 unfair coins (in which the probability of heads = 0.80 for each coin).
+
+```{r}
+#### Exercise 2a
+# Below this line, type the code to flip 20 fair coins.
+
+
+#### Exercise 2b
+# Below this line, type the code to flip 20 fair coins using nflip()
+
+
+#### Exercise 2c
+# Below this line, type the code to flip 10 unfair coins with P(heads = 0.80).
+
+```
+
+<br />
+
+3. Use Do() * nflip() to flip 20 fair coins 5 times.  Then, flip 10 unfair coins (in which the probability of heads = 0.80 for each coin) 7 times.  
+
+```{r}
+#### Exercise 3a
+# Below this line, complete the code to flip 20 fair coins 5 times.
+Do() * nflip()
+
+#### Exercise 2b
+# Below this line, type the code to flip 10 unfair coins with P(heads = 0.80) 7 times.
+
+```
+
+<br />
+
+4. Flip 20 fair coins 1,000 times and store the results as **coins**.   In other words, assign the results of 1,000 replications of 20 coin flips to the variable **coins**.  Then, look at the first several rows of the results using the head() command.
+
+```{r}
+#### Exercise 4a
+# Complete the code to flip 20 fair coins 1,000 
+# times and store the results as coins
+coins <- Do() * nflip()
+
+#### Exercise 4b
+# Use the head() command to examine the first several rows of results 
+
+
+```
+
+<br />
+
+5. The data frame **coins** contains the results of 1,000 replications of 20 coin flips.  Construct a histogram of the number of heads in all 1,000 replications.
+
+```{r}
+#### Exercise 5
+# Complete the code to construct your histogram.
+# Change the XX values in the code below
+# Don't forget to keep that ~ symbol!
+# Oh, and notice the variable is called "nflip"
+histogram(~XX , data=XX)
+```
+
+<br />
+
+6. Change the colors of the bars and borders in your histogram.  Try any colors you'd like.  I'd suggest using "lightgreen" and "forestgreen."
+
+```{r}
+#### Exercise 6
+# Add arguments to this command to change the color of your histogram bars and borders
+# Remember to separate your arguments with commas
+histogram(~nflip , data=coins, )
+
+```
+
+<br />
+
+7. Change your histogram to have counts represented on the y-axis, bar widths of 1, and a descriptive label on the x-axis.
+
+```{r}
+#### Exercise 7
+# Replace the XX values in the following code to complete the exercise: 
+histogram(~nflip, data=coins, col="XX", border="XX", type="XX", width=XX,
+          xlab = "XX")
+
+```
+
+<br />
+
+8. Add a vertical line to your histogram at X = 12.
+
+```{r}
+#### Exercise 8
+# Replace the XX values in the following code to complete the exercise: 
+histogram(~nflip, data=coins, type="count", width=1,
+          xlab = "XX",
+          v = XX)
+
+```
+
+<br />
+
+*****
+
+## Tea Time
+
+*****
+
+9. Simulate this experiment with 10,000 replications of coin flips.  Then, create a histogram of the results and estimate the p-value from this experiment.
+
+```{r 'tea-time', message=FALSE}
+# Replace all &&& in the code below to simulate the experiment
+# Run 10,000 replications and store the results in "tea"
+tea <- Do(&&&) * nflip(n = &&&, prob = &&&)
+
+# Now, plot a histogram of the results
+# Feel free to change the color of the bars and borders
+# Replace the &&& to give the x-axis a descriptive name
+histogram(~nflip, data = tea, col="grey", border="white", width=1, xlab = "&&&")
+
+# Estimate the p-value by replacing the &&&
+prop(~nflip >= &&&, data = tea)
+
+```
+
+<br />
+
+10. Explain what this p-value represents.  What assumptions were you making when you simulated this experiment?
+
+**Answer**:  Replace this text with your answer.
+
+<br />
+
+*****
+## Psychic
+*****
+
+11. Simulate this experiment with 10,000 replications.  Estimate the p-value.
+
+```{r 'psychic', message=FALSE}
+# Replace all &&& in the code below to simulate the experiment
+# Run 10,000 replications and store the results in "psychic"
+psychic <- Do(&&&) * nflip(n = &&&, prob = &&&)
+
+# Now, plot a histogram of the results.
+# Replace the &&& to give the x-axis a descriptive name
+# Highlight the results obtained in this study by replacing
+# the &&& in v=&&& to draw a vertical line 
+histogram(~nflip, data = psychic, col="grey", border="white", width=1, xlab = "&&&", v=&&&)
+
+# Estimate the p-value by replacing the &&&
+prop(~nflip >= &&&, data = psychic)
+
+```
+
+<br />
+
+12. Explain what this p-value represents.  What assumptions were you making when you simulated this experiment?
+
+**Answer**:  Replace this text with your answer.
+
+<br />
+
+*****
+## Hot Hand
+*****
+
+
+13. Simulate this experiment with 10,000 replications.  Estimate the p-value.
+
+```{r 'hot-hand-simulation', message=FALSE}
+# The code has been provided
+bball <- Do(133) * nflip(n = 1, prob = 0.44)
+
+# Calculate the length of each streak and store as "sim_streak"
+# Don't worry about understanding this code
+sim_streak <- diff(which(c(0, bball$nflip, 0)==0)) - 1
+
+# Histogram
+histogram(~sim_streak, width=1, col="lightblue", border="white", type="count", 
+          xlab="Streak Length for simulated shooter", ylab="Number of streaks", xlim=c(-1, 7))
+```
+
+<br />
+
+14. Compare the streak lengths of the simulated shooter to those of Kobe Bryant. From this comparison, do you have evidence that Kobe had a hot hand? Briefly explain.
+
+**Answer**:  Replace this text with your answer.
+
+<br />
+
+
+
+<div id="license">
+End of Lab Report #1
+</div>
