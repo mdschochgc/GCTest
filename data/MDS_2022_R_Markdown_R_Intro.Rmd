@@ -1,0 +1,56 @@
+---
+title: "Good Counsel Data Science:  R Intro"
+output:
+  pdf_document
+    
+---
+
+
+## Introduction
+ This section establishes the environment you need. 
+ 
+
+
+```{r message = FALSE, warning = FALSE, results = FALSE}
+library(tidyverse)
+library(openintro)
+library(tinytex)
+# we also will insert any data frames that need to be read
+```
+
+Exercise 1: 
+
+NAME:   Martin Schoch  
+DATE:   August 8, 2022 
+
+
+Place all of your R  commands in this grey shaded area. 
+```{r "Exercise 1"}
+# insert your name on the line below  
+print("My name is     Martin   ")
+# insert your R commands on the next lines
+k <- 24
+m <- 12
+Grade <- "Senior"
+County <- "Howard"
+Community <- "9411"
+k > 0 
+2*k > 50
+k + m > 30 
+k > 9 & k  < 30 
+Grade == "Junior" | County == "Howard"
+k  > 10 & m > 10 & Community == "9411"
+(k + 11 > 36)  | (m-11 < 0)  | County == "howard" 
+Grade == "Senior" &  !(County == "Howard")
+
+
+#  do not delete the line that appears immdediately below
+```
+
+
+<div id="license">
+This is a product of OpenIntro that is released under a 
+[Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0). 
+This lab was adapted for OpenIntro by Andrew Bray and Mine &Ccedil;etinkaya-Rundel 
+from a lab written by Mark Hansen of UCLA Statistics.
+</div>
