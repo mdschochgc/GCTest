@@ -1,0 +1,61 @@
+---
+title: "R Markdown Notebook"
+
+output: pdf_document
+
+---
+This is a very simple example of an R Markdown file.  R Markdown 
+provides a simple authoring framework for what we will do in 
+our Data Science course.  It will serve as one of the vehicles 
+for you to submit your work. In addition to being a simple 
+report authoring tool, R Markdown allows you to insert 
+code and the resulting text and graphical outputs into your 
+final document. 
+
+For our purposes, we will use R Markdown to create a PDF 
+output file. 
+
+NAME:  [insert your name here]
+
+DATE:  [insert the date here]
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Our R code is stored in chunks as identifed by the section 
+in grey below.  
+
+In this example, we have two chunks.  The first chunk 
+runs some simple setup commands. The second chunk performs 
+a brief graphical analysis using a built-in R data frame. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r message = FALSE, warning = FALSE}
+library(tidyverse)
+library(openintro)
+library(tinytex)
+```
+
+
+```{r}
+# Type your name inside the quotation marks on the line beloe
+name = "                      "
+name
+
+plot(cars)
+
+```
+
+
+You can add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.  We'll do that later when our reports require more code. 
+
+To run the notebook, press *Ctrl+Shift+R*
+
+To see the outout after you run the notebook, press *Ctrl+Shift+K*. 
+If all runs cleanly, a PDF file will appear.
+
+When you save the notebook, a PDF file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+
+
+The preview shows you a rendered HTML copy of the contents of the editor. 
