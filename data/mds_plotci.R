@@ -23,4 +23,5 @@ mds_plotci <- function(lo, hi, m){
     points(x, i, pch=20, cex=1.2, col=col)
     lines(ci, rep(i, 2), col=col)
   }
+  par(mar=c(5.1, 4.1, 4.1, 2.1), mgp=c(3, 1, 0) )
 }
