@@ -1,0 +1,96 @@
+---
+
+title: "GC DATA SCIENCE"
+
+author: "XXXXXXXXXXX"
+
+
+
+date: "XX/XX/XXXX"
+
+
+
+output: pdf_document
+
+
+
+---
+
+
+
+```{r setup, include=FALSE}
+
+
+
+knitr::opts_chunk$set(echo = TRUE)
+
+
+
+```
+
+
+
+## R Markdown
+
+
+
+
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
+library(tidyverse)
+
+library(openintro)
+
+library(tinytex)
+
+
+
+# we also will insert any data frames that need to be read
+
+
+
+# load(url("https://github.com/mdschochgc/GCTest/blob/main/data/sept30.rda?raw=true"))
+
+
+
+# load(url("https://github.com/mdschochgc/GCTest/blob/main/data/sept14b.Rda?raw=true"))
+
+
+
+
+
+```
+
+
+
+## Data Science Classwork
+
+
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+# insert your R commands on the next lines
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
