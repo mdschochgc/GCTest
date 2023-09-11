@@ -1,5 +1,7 @@
 ---
 
+
+
 title: "GC DATA SCIENCE - SEPTEMBR 12  LAB "
 
 
@@ -13,10 +15,9 @@ date: "mm/dd/2023"
 
 output: pdf_document
 
+
+
 ---
-
-
-
 
 
 
@@ -30,19 +31,31 @@ knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 
 
+
+
 ```
+
 ## R Markdown
+
+
+
 
 
 ```{r include = FALSE, warning = FALSE, results = FALSE}
 
 
+
 library(tidyverse)
+
 library(openintro)
+
 library(tinytex)
+
+
 
 # we also will insert any data frames that need to be read
 # so that the data we use in the console can also used when we knit
+
 
 
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
@@ -51,7 +64,11 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"
 
 ```
 
-# This is empty white space - keep it as is 
+
+
+# This is empty white space - keep it as is for the Sept 12 lab
+
+
 
 
 
@@ -66,7 +83,9 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"
 
 
 
+
 ```
+
 
 
 
