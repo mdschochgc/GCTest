@@ -1,6 +1,6 @@
 
     mean10 <- rep(0,2000)
-   for ( j in 1:500)  {
+   for ( j in 1:2000)  {
      
      mean10[j] = mean(sample(ames$SalePrice, 10 ))
    }
