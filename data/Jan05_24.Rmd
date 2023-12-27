@@ -1,13 +1,13 @@
 ---
 
 
-title: "GC DATA SCIENCE - DECEMBER 5 LAB "
+title: "GC DATA SCIENCE - JANUARY 5 LAB "
 
 
 author: "XXXXXXXXXXX"
 
 
-date: "12/05/2023"
+date: "01/05/2024"
 
 output: pdf_document
 
@@ -64,10 +64,8 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/Jan2024.rda?raw=tr
 
 # insert your R commands on the next lines
 
-dim(evals)
-dim(dolphins)
-dim(yawn)
-dim(gc2023)
+dim(violent)
+dim(bike)
 
 
 
