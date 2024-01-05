@@ -66,20 +66,8 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/Jan2024.rda?raw=tr
 
 dim(violent)
 dim(bike)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+violent2 <- violent 
+ 
 
 
 
