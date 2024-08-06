@@ -1,0 +1,61 @@
+---
+title: "GC DATA SCIENCE 2024/25"
+author: "XXXXXXXXXXX"
+date: "mm/dd/2024"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+
+```
+
+
+## R Markdown
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
+library(tidyverse)
+
+library(openintro)
+
+library(tinytex)
+
+library(ggformula)
+
+
+# we also will insert any data frames that need to be read
+# so that the data we use in the console can also used when we knit
+
+
+
+
+```
+# This is empty white space - keep it as is 
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+# insert your R commands on the next lines
+print("I go to Good Counsel")
+hitrate <- rep(NA,25000)
+for (j in 1:25000)   { 
+    hitrate[j] =  sum( sample(1:100, 100, replace = TRUE) <= 60  )/100
+}      
+hitrate_df <- as.data.frame(hitrate)
+gf_histogram(~ hitrate, data = hitrate_df, binwidth = 0.01) %>% 
+    gf_labs(title = "test" ) %>%
+    gf_lims(y = c(0,2400))   +
+    stat_bin(binwidth = 0.01, geom = 'text', aes(label = ..count..) , vjust = -1) +
+    stat_function(fun = function(x) dnorm(x, mean = 0.6, sd = sqrt(0.6*0.4/100)) * 25000 * 0.01,
+                  color = "darkgreen", size = 1) 
+
+```
+
+
