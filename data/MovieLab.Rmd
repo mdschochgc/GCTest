@@ -66,8 +66,7 @@ Rating <- c("PG-13", "R", "R", "PG", "G", "R", "R","PG-13", "PG-13", "Unrated")
 
 ###   INSERT YOUR WORKING CONSOLE COMMANDS FROM YOUR TESTING BELOW
 
-Movie[Genre == "Comedy"]
-median(Boxoffice[Rating == "G" |  Rating == "PG"])
+
 
 
 
