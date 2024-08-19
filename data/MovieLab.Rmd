@@ -1,0 +1,90 @@
+---
+
+
+title: "GC DATA SCIENCE - MOVIE LAB "
+
+author: "XXXXXXXXXXX"
+
+date: "mm/dd/2023"
+
+output: pdf_document
+
+---
+
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+
+
+```
+
+## R Markdown -
+
+
+
+
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+library(tidyverse)
+library(openintro)
+library(tinytex)
+library(ggformula)
+
+
+# we also will insert any data frames that need to be read
+# so that the data we use in the console can also used when we knit
+
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
+
+
+
+
+```
+# This is empty white space - keep it as is 
+
+
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+# These commands can be pasted to the console so you can do your testing
+
+Movie <- c("Whatever Works", "It Follows", "Love and Mercy","The Goonies", "Jiro Dreams of Sushi", "There Will be Blood", "Moon", "Spice World", "Serenity", "Finding Vivian Maier")
+
+Year <- c(2009, 2015, 2015, 1985, 2012, 2007, 2009, 1988, 2005, 2014)
+
+Boxoffice <- c(35, 15, 15, 62, 3, 10, 321, 79, 39, 1.5)
+
+Genre <- c("Comedy", "Horror", "Drama", "Adventure", "Documentary","Drama", "Science Fiction", "Comedy", "Science Fiction", "Documentary")
+
+Time <- c(92, 97, 120, 90, 81, 158, 97, 84, 119, 84)
+
+Rating <- c("PG-13", "R", "R", "PG", "G", "R", "R","PG-13", "PG-13", "Unrated")
+
+###   INSERT YOUR WORKING CONSOLE COMMANDS FROM YOUR TESTING BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
