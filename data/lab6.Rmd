@@ -3,10 +3,22 @@
 
 
 
+
+
+
+
+
 title: "GC DATA SCIENCE - 2024 LAB 6  "
 
 
+
+
+
 author: "XXXXXXXXXXX"
+
+
+
+
 
 
 
@@ -17,10 +29,32 @@ date: "mm/dd/2024"
 
 
 
+
+
+
+
+
+
+
 output: pdf_document
 
 
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -36,6 +70,10 @@ output: pdf_document
 
 
 
+
+
+
+
 knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 
@@ -43,7 +81,19 @@ knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 
 
+
+
+
+
+
+
+
 ```
+
+
+
+
+
 
 
 
@@ -53,13 +103,27 @@ knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 
 
+
+
+
+
+
 ```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
 
 
 library(tidyverse)
 
 
+
+
+
 library(openintro)
+
+
+
 
 
 library(tinytex)
@@ -68,22 +132,15 @@ library(tinytex)
 # we also will insert any data frames that need to be read
 # so that the data we use in the console can also used when we knit
 
-
-
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=true"))
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/Oct02.rda?raw=true"))
+
+
 
 source("https://raw.githubusercontent.com/mdschochgc/GCTest/main/data/gcdot_plot.r")
 
 
-
-
-
 ```
-
-
-
-
-
 
 
 
@@ -95,52 +152,14 @@ source("https://raw.githubusercontent.com/mdschochgc/GCTest/main/data/gcdot_plot
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ```{r "TEST", error = TRUE, warning = FALSE}
-
-
-
-
-
-
 
 # insert your R commands on the next lines
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+barplot (sort (table(college$stabbr), decreasing = TRUE), cex.names = 0.5, 
+         main = "test",
+          col = rainbow(8),
+          sub = "yes")
 
 
 
@@ -156,7 +175,39 @@ source("https://raw.githubusercontent.com/mdschochgc/GCTest/main/data/gcdot_plot
 
 
 
+
+
+
+
 # Start Your Analysis below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
