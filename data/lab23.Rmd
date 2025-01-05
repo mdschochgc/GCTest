@@ -1,0 +1,134 @@
+---
+
+
+
+
+
+
+title: "GC DATA SCIENCE - 2024 LAB 23  "  
+
+
+author: "XXXXXXXXXXX"  
+
+
+
+date: "mm/dd/2024"  
+
+
+
+output: pdf_document
+
+
+---
+
+
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
+
+
+
+
+
+
+
+
+knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+
+
+
+library(tidyverse)
+
+
+
+library(openintro)
+
+
+
+
+
+library(tinytex)
+
+
+
+
+
+
+
+# we also will insert any data frames that need to be read
+
+# so that the data we use in the console can also used when we knit
+
+
+
+
+
+
+
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/mds2025.rda?raw=true"))
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+# This is empty white space 
+
+
+
+
+
+
+
+
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+
+
+# insert your R commands on the next lines
+
+
+
+dim(SAT)
+dim(Calculus)
+
+
+
+
+
+
+
+
+
+```
+
+
+
+# Start Your Analysis below
+
+
+
+
+
+
+
