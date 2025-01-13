@@ -5,7 +5,17 @@
 
 
 
-title: "GC DATA SCIENCE - 2024 LAB 23  "  
+
+
+
+
+
+title: "GC DATA SCIENCE - 2024 LAB 21  "  
+
+
+
+
+
 
 
 author: "XXXXXXXXXXX"  
@@ -19,7 +29,16 @@ date: "mm/dd/2024"
 output: pdf_document
 
 
+
+
+
+
+
 ---
+
+
+
+
 
 
 
