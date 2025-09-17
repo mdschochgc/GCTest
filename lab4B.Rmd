@@ -16,37 +16,9 @@
 
 title: "GC DATA SCIENCE -  LAB 4B  "
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 author: "XXXXXXXXXXX"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-date: "mm/dd/2024"
+date: "09/17/2025"
 
 
 
@@ -158,8 +130,8 @@ library(tinytex)
 
 
 
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/survey.rda?raw=true"))
-
 
 
 
@@ -199,11 +171,14 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/survey.rda?raw=tru
 
 
 # insert your R commands on the next lines
+
+
+
+
+
 dim(survey)
-names(survey) 
+names(survey)
 head(survey)
-
-
 
 
 
