@@ -63,9 +63,9 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/survey2.rda?raw=tr
 # insert your R commands on the next lines
 dim(survey2)
 
-names(survey)
+names(survey2)
 
-head(survey)
+head(survey2)
 
 
 ```
