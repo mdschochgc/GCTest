@@ -1,22 +1,50 @@
 ---
 
+
+
 title: "LAB1007 "
+
+
 
 author: "Good Counsel"
 
+
+
 date: "2025-10-07"
 
+
+
 output: pdf_document
+
+
 
 ---
 
 
 
+
+
+
+
 ```{r setup, include=FALSE}
+
+
 
 knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
+
+
 ```
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -28,9 +56,15 @@ knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 ```{r include = FALSE, warning = FALSE, results = FALSE}
 
+
+
 library(tidyverse)
 
+
+
 library(openintro)
+
+
 
 library(tinytex)
 
@@ -40,10 +74,25 @@ library(tinytex)
 
 
 
+
+
+
+
+
+
+
+
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
 
+
+
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/survey2.rda?raw=true"))
+
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=true"))
+
+
+
+
 
 
 
@@ -51,7 +100,15 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=tr
 
 
 
+
+
+
+
 # This is empty white space - keep it as is
+
+
+
+
 
 
 
@@ -63,13 +120,34 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=tr
 
 
 
+
+
+
+
+
+
+
+
 # insert your R commands on the next lines
+
+
 
 dim(college)
 
+
+
 ```
 
+
+
 #  Analysis Begins Below 
+
+
+
+
+
+
+
 
 
 
