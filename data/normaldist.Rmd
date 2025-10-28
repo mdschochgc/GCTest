@@ -1,69 +1,141 @@
 ---
-
-
-
-title: "NORMAL DISTRIBUTION"
-
-
-
+title: "Normal Distribution"
 author: "Good Counsel"
-
-
-
-date: "2025-10-29"
-
+date: "2025-10-25"
 output: pdf_document
-
 ---
 
-
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This document provides the basics of the Normal Distribution, aka THE BELL CURVE
+
+```{r cars}
+# ====================================================================
+# R SCRIPT: INTRODUCING THE NORMAL DISTRIBUTION
+# ====================================================================
+
+# This script demonstrates the visual and statistical elements of the
+# Normal (Gaussian) Distribution using base R plotting functions.
+
+# --------------------------------------------------------------------
+# 1. SETUP AND PARAMETERS
+# --------------------------------------------------------------------
+
+# A Normal Distribution is defined entirely by its Mean and Standard Deviation.
+# Let's set the center and spread for our simulated data.
+set.seed(42)  # Set seed for reproducible results
+NUM_SAMPLES <- 1000
+MEAN_MU <- 100 # The center of the distribution
+SD_SIGMA <- 10 # The spread of the distribution (CHANGED from 15 to 10)
+
+# Generate 1000 random data points following a normal distribution
+normal_data <- rnorm(NUM_SAMPLES, mean = MEAN_MU, sd = SD_SIGMA)
+
+# --------------------------------------------------------------------
+# 2. VISUALIZATION: DENSITY CURVE (No Histogram)
+# --------------------------------------------------------------------
+
+# Calculate density once to get the curve data and plot boundaries
+density_calc <- density(normal_data)
+
+# Create the plot, drawing only the smooth, theoretical density curve (the "bell curve").
+plot(density_calc,
+     main = "Normal Distribution with Empirical Rule (68-95-99.7)",
+     xlab = paste("Data Values (Mean =", MEAN_MU, ", SD =", SD_SIGMA, ")"),
+     ylab = "", # Removed Y-axis label
+     yaxt = 'n', # Suppressed Y-axis ticks and labels
+     col = "#0077b6", # Color of the bell curve line
+     lwd = 3,
+     ylim = c(0, max(density_calc$y) * 1.1) # Adjust height for labels
+)
 
 
-knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+# --------------------------------------------------------------------
+# 3. EMPIRICAL RULE DEMONSTRATION (68-95-99.7)
+# --------------------------------------------------------------------
+# --- The Empirical Rule (68-95-99.7) ---
+# For a Normal Distribution, approximately:
+# 68% of the data falls within 1 Standard Deviation (SD) of the Mean.
+#   (i.e., between 90 and 110, since 100 +/- 10)
+# 95% of the data falls within 2 Standard Deviations (SDs) of the Mean.
+#   (i.e., between 80 and 120, since 100 +/- 20)
+# 99.7% of the data falls within 3 Standard Deviations (SDs) of the Mean.
+#   (i.e., between 70 and 130, since 100 +/- 30)
+# ------------------------------------------
+
+# Highlight the middle areas first so lines and text appear on top.
+# Maximum density height for shading rectangle, calculated in Section 2.
+max_y <- max(density_calc$y)
+
+# --- Define all Standard Deviation Boundaries ---
+pos_sd_1 <- MEAN_MU + 1 * SD_SIGMA
+neg_sd_1 <- MEAN_MU - 1 * SD_SIGMA
+pos_sd_2 <- MEAN_MU + 2 * SD_SIGMA
+neg_sd_2 <- MEAN_MU - 2 * SD_SIGMA
+pos_sd_3 <- MEAN_MU + 3 * SD_SIGMA
+neg_sd_3 <- MEAN_MU - 3 * SD_SIGMA
+
+# --- Shading Layers (Drawn from outside-in) ---
+# 99.7% Tail Area (Outside 95%) - Dark Green Transparent
+rect(neg_sd_3, 0, neg_sd_2, max_y, col = "#00640015", border = NA) # Left Tail (-3 to -2 SD)
+rect(pos_sd_2, 0, pos_sd_3, max_y, col = "#00640015", border = NA) # Right Tail (+2 to +3 SD)
+
+# 95% Area (Middle 95%) - Transparent Blue
+rect(neg_sd_2, 0, pos_sd_2, max_y, col = "#0000FF15", border = NA)
+
+# 68% Area (Middle 68%) - Transparent Red (Drawn last to be on top)
+rect(neg_sd_1, 0, pos_sd_1, max_y, col = "#FF000015", border = NA)
+
+# Draw the line for the Mean (center) for better orientation
+abline(v = MEAN_MU, col = "black", lty = 1, lwd = 3)
+
+# --- Add Centralized Empirical Rule Labels ---
+
+# 68% Label (Highest)
+text(x = MEAN_MU, y = 0.045, labels = "Middle 68% (±1 SD)", col = "red", font = 2, cex = 1) 
+
+# 95% Label (Middle)
+# Increased cex to visually span from 81 to 119 and adjusted y-position for clearance.
+text(x = MEAN_MU, y = 0.030, labels = "Middle 95% (±2 SD)", col = "blue", font = 2, cex = 1.8) 
+
+# 99.7% Label (Lowest)
+# Adjusted cex to visually span from 71 to 129 and maintained Y position.
+text(x = MEAN_MU, y = 0.001, labels = "Middle 99.7% (±3 SD)", col = "darkgreen", font = 2, cex = 2.4) 
+
+
+# Define the standard deviation boundaries for the Empirical Rule
+sd_points <- c(1, 2, 3)
+
+# Add vertical lines (ablines) for +/- 1, 2, and 3 standard deviations (SDs)
+for (i in sd_points) {
+  # Calculate the position for the positive and negative SDs
+  pos_sd <- MEAN_MU + i * SD_SIGMA
+  neg_sd <- MEAN_MU - i * SD_SIGMA
+
+  # Add vertical lines (1 SD is dashed, others are dotted)
+  line_type <- ifelse(i == 1, 2, 3)
+  
+  # Set line color: Red for 1 SD, Blue for 2 SD, Dark Green for 3 SD
+  line_color <- ifelse(i == 1, "red", 
+                       ifelse(i == 2, "blue", "darkgreen")) # Color changed here
+  
+  abline(v = pos_sd, col = line_color, lty = line_type, lwd = 3)
+  abline(v = neg_sd, col = line_color, lty = line_type, lwd = 3)
+
+  # Text placement logic removed from loop as labels are now centralized above the curve.
+}
 
 
 ```
 
 
 
-
-```{r include = FALSE, warning = FALSE, results = FALSE}
-
-
-library(tidyverse)
-library(openintro)
-library(tinytex)
-
-
-
-load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
-
-load(url("https://github.com/mdschochgc/GCTest/blob/main/data/survey2.rda?raw=true"))
-
-load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=true"))
-
-load(url("https://github.com/mdschochgc/GCTest/blob/main/data/flights.rda?raw=true"))
-load(url("https://github.com/mdschochgc/GCTest/blob/main/data/baseball.rda?raw=true"))
-
-
+```{r pressure, echo=FALSE}
 
 ```
-
-
-# This is empty white space - keep it as is
-
-```{r "TEST", error = TRUE, warning = FALSE}
-
-# insert your R commands on the next lines
-
-dim(baseball)
-
-
-```
-
-#  Analysis Begins Below 
-
-
 
 
