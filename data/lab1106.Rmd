@@ -82,7 +82,7 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=tr
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/flights.rda?raw=true"))
 
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/baseball.rda?raw=true"))
-
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/cherry17.rda?raw=true"))
 
 
 
@@ -106,7 +106,7 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/baseball.rda?raw=t
 # insert your R commands on the next lines
 
 
-dim(nycflights)
+dim(cherry17)
 colnames(baseball)[4] <- "Height"       
 colnames(baseball)[5] <- "Weight"
   
