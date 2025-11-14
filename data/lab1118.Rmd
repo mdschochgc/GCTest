@@ -3,15 +3,29 @@
 
 
 
-title: "LAB1118"
+title: "LAB1106"
+
+
+
+
+
 
 
 author: "Good Counsel"
 
 
-date: "2025-11-184"
+
+
+
+
+
+date: "2025-11-04"
+
+
 
 output: pdf_document
+
+
 
 ---
 
@@ -22,7 +36,12 @@ output: pdf_document
 ```{r setup, include=FALSE}
 
 
+
+
+
 knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+
+
 
 
 
@@ -30,7 +49,16 @@ knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
 
 
 
+
+
+
+
+
+
 ```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
 
 
 library(tidyverse)
@@ -38,6 +66,7 @@ library(tidyverse)
 library(openintro)
 
 library(tinytex)
+
 
 
 
@@ -51,7 +80,7 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/college.rda?raw=tr
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/flights.rda?raw=true"))
 
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/baseball.rda?raw=true"))
-
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/cherry17.rda?raw=true"))
 load(url("https://github.com/mdschochgc/GCTest/blob/main/data/mms.rda?raw=true"))
 
 
@@ -74,9 +103,7 @@ load(url("https://github.com/mdschochgc/GCTest/blob/main/data/mms.rda?raw=true")
 
 # insert your R commands on the next lines
 
-
-dim(mms)
-  
+length(mms)
 
 
 
@@ -85,6 +112,10 @@ dim(mms)
 
 
 #  Analysis Begins Below 
+
+
+
+
 
 
 
