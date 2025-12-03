@@ -1,0 +1,114 @@
+---
+
+
+
+
+title: "LAB1106"
+
+
+
+
+
+
+
+author: "Good Counsel"
+
+
+
+
+
+
+
+date: "2025-11-04"
+
+
+
+output: pdf_document
+
+
+
+---
+
+
+
+
+
+```{r setup, include=FALSE}
+
+
+
+
+
+knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+
+
+
+library(tidyverse)
+
+library(openintro)
+
+library(tinytex)
+
+
+
+
+
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab2.rda?raw=true"))
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/gc25.rda?raw=true"))
+
+
+
+
+
+```
+
+
+
+
+
+# This is empty white space - keep it as is
+
+
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+
+
+# insert your R commands on the next lines
+
+dim(cdc) 
+dim(gc25)
+
+
+```
+
+
+
+#  Analysis Begins Below 
+
+
+
+
+
+
+
+
+
