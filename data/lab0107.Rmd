@@ -1,0 +1,100 @@
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title: "LAB1205"
+
+
+author: "XXXXXXX"
+
+
+date: "2026-01-07"
+
+
+output: pdf_document
+
+
+
+
+
+
+
+---
+
+
+
+
+```{r setup, include=FALSE}
+
+
+knitr::opts_chunk$set(echo = TRUE,fig.height = 9 ,fig.width = 11)
+
+
+```
+
+
+```{r include = FALSE, warning = FALSE, results = FALSE}
+
+
+library(tidyverse)
+
+library(openintro)
+
+library(tinytex)
+
+load(url("https://github.com/mdschochgc/GCTest/blob/main/data/lab0107.rda?raw=true"))
+
+
+
+
+
+
+
+
+
+```
+
+
+
+# This is empty white space - keep it as is
+
+
+
+```{r "TEST", error = TRUE, warning = FALSE}
+
+
+# insert your R commands on the next lines
+dim(diamonds)
+dim(strongpos)
+dim(strongneg)
+dim(modpos) 
+dim(noscat)
+dim(accords)
+dim(houses)
+
+
+
+
+
+```
+
+#  Analysis Begins Below 
+
+
+
